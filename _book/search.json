@@ -10,36 +10,6 @@
     ]
   },
   {
-    "objectID": "intro.html",
-    "href": "intro.html",
-    "title": "1  Introduction",
-    "section": "",
-    "text": "This is a book created from markdown and executable code.\nSee Knuth (1984) for additional discussion of literate programming.\n\n\n\n\nKnuth, Donald E. 1984. “Literate Programming.” Comput. J. 27 (2): 97–111. https://doi.org/10.1093/comjnl/27.2.97.",
-    "crumbs": [
-      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Introduction</span>"
-    ]
-  },
-  {
-    "objectID": "summary.html",
-    "href": "summary.html",
-    "title": "2  Summary",
-    "section": "",
-    "text": "In summary, this book has no content whatsoever.",
-    "crumbs": [
-      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Summary</span>"
-    ]
-  },
-  {
-    "objectID": "references.html",
-    "href": "references.html",
-    "title": "References",
-    "section": "",
-    "text": "Knuth, Donald E. 1984. “Literate Programming.” Comput.\nJ. 27 (2): 97–111. https://doi.org/10.1093/comjnl/27.2.97.",
-    "crumbs": [
-      "References"
-    ]
-  },
-  {
     "objectID": "index.html#de-qué-trata-este-curso",
     "href": "index.html#de-qué-trata-este-curso",
     "title": "Desarrollo Web FontEnd",
@@ -77,6 +47,36 @@
     "text": "Contribución estudiantil\nValoro mucho la dedicación que cada uno asigna a su formación profesional, y ante todas las cosas fomento la lectura, conocedor de la ajetreada vid estudiantil que los cursantes de tercero de bachillerato experimentan en este periodo lectivo, es por esta razón que; si en algún momento, uno de mis estudiantes genera contenido de valor y aporta a este documento, su esfuerzo será reconocido académicamente:\n\n\n\n\n\n\n\n\nAporte\nRecompensa\nInsumo\n\n\n\n\nAporte de corrección ortográfica\n0.25\nInsumo 1\n\n\nAporte de corrección de arquitectura\n1\nInsumo 1\n\n\nAporte con un texto para el documento\n1\nProyecto Quimestral\n\n\n\nEntonces, a partir de este momento, si un estudiante quisiera ganar puntos adicionales en el trimestre, o quizas, con mucho esfuezo, ni siquiera presentar el proyecto final de cada trimestre, lo único que debe hacer es seguir los pasos antriores e informar en clases o realizando un pull.",
     "crumbs": [
       "Bienvenida"
+    ]
+  },
+  {
+    "objectID": "intro.html",
+    "href": "intro.html",
+    "title": "1  Introduction",
+    "section": "",
+    "text": "This is a book created from markdown and executable code.\nSee Knuth (1984) for additional discussion of literate programming.\n\n\n\n\nKnuth, Donald E. 1984. “Literate Programming.” Comput. J. 27 (2): 97–111. https://doi.org/10.1093/comjnl/27.2.97.",
+    "crumbs": [
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Introduction</span>"
+    ]
+  },
+  {
+    "objectID": "summary.html",
+    "href": "summary.html",
+    "title": "2  Summary",
+    "section": "",
+    "text": "In summary, this book has no content whatsoever.",
+    "crumbs": [
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Summary</span>"
+    ]
+  },
+  {
+    "objectID": "references.html",
+    "href": "references.html",
+    "title": "References",
+    "section": "",
+    "text": "Knuth, Donald E. 1984. “Literate Programming.” Comput.\nJ. 27 (2): 97–111. https://doi.org/10.1093/comjnl/27.2.97.",
+    "crumbs": [
+      "References"
     ]
   }
 ]
