@@ -26,7 +26,7 @@ El desarrollador UX/UI, generalmente esta acostumbrado a trabajar con herramient
 
 Un desarrollador frontend se encarga de la parte del sitio web que interactúa directamente con los usuarios. Utiliza tecnologías como HTML, CSS y JavaScript para construir la interfaz de usuario, desde el enfoque de la producción del sitio Web. Las responsabilidades de un desarrollador frontend incluyen:
 
-### Responsabilidades:
+#### Responsabilidades:
 
 -   **Implementación de diseños**: Convertir los diseños creados por los diseñadores UX/UI en código funcional.
 
@@ -42,7 +42,7 @@ El desarrollador FrontEnd se ha preparado para usar herramientas de programació
 
 Un desarrollador backend se encarga de la lógica del servidor, las bases de datos y la integración de sistemas. Aquí hay una descripción más detallada de sus responsabilidades y ejemplos prácticos:
 
-### **Responsabilidades**
+#### **Responsabilidades**
 
 1.  **Gestión de Bases de Datos**:
 
@@ -62,7 +62,7 @@ Un desarrollador backend se encarga de la lógica del servidor, las bases de dat
 
     -   **Gestión de Sesiones**: Asegurar que las sesiones de usuario sean seguras y que los datos de sesión no puedan ser interceptados o manipulados.
 
-### **Ejemplos Prácticos**
+#### **Ejemplos Prácticos**
 
 -   **Aplicación de Comercio Electrónico**: Un desarrollador backend podría crear una API que maneje el catálogo de productos, procese los pedidos y gestione los pagos. También se encargaría de la lógica para calcular impuestos y costos de envío.
 
@@ -72,7 +72,7 @@ Un desarrollador backend se encarga de la lógica del servidor, las bases de dat
 
 Un desarrollador full stack tiene conocimientos tanto de frontend como de backend, lo que le permite trabajar en todas las partes de un proyecto web. Aquí hay una descripción más detallada de sus responsabilidades y ejemplos prácticos:
 
-### **Responsabilidades**
+#### **Responsabilidades**
 
 1.  **Desarrollo Completo de Aplicaciones**:
 
@@ -92,7 +92,7 @@ Un desarrollador full stack tiene conocimientos tanto de frontend como de backen
 
     -   **Optimización de Rendimiento**: Mejorar el rendimiento tanto del frontend como del backend. Por ejemplo, optimizar el tiempo de carga de la página y la eficiencia de las consultas a la base de datos.
 
-### **Ejemplos Prácticos**
+#### **Ejemplos Prácticos**
 
 -   **Aplicación de Gestión de Proyectos**: Un desarrollador full stack podría crear una aplicación que permita a los usuarios crear y gestionar proyectos, asignar tareas, y colaborar en tiempo real. El frontend incluiría una interfaz de usuario intuitiva, mientras que el backend manejaría la lógica de negocio y el almacenamiento de datos.
 
