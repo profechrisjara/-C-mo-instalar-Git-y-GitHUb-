@@ -1,0 +1,768 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.5.57">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+
+<title>2&nbsp; El surgimiento de la informática moderna, Internet y la Web – Desarrollo Web FontEnd</title>
+<style>
+code{white-space: pre-wrap;}
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: min(4vw, 1.5em);}
+div.column{flex: auto; overflow-x: auto;}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
+  vertical-align: middle;
+}
+</style>
+
+
+<script src="site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="site_libs/quarto-nav/headroom.min.js"></script>
+<script src="site_libs/clipboard/clipboard.min.js"></script>
+<script src="site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="site_libs/quarto-search/fuse.min.js"></script>
+<script src="site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="./">
+<link href="./intro.html" rel="next">
+<link href="./1_Capitulo.html" rel="prev">
+<script src="site_libs/quarto-html/quarto.js"></script>
+<script src="site_libs/quarto-html/popper.min.js"></script>
+<script src="site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="site_libs/quarto-html/anchor.min.js"></script>
+<link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-dark.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="dark">
+<script id="quarto-search-options" type="application/json">{
+  "location": "sidebar",
+  "copy-button": false,
+  "collapse-after": 3,
+  "panel-placement": "start",
+  "type": "textbox",
+  "limit": 50,
+  "keyboard-shortcut": [
+    "f",
+    "/",
+    "s"
+  ],
+  "show-item-context": false,
+  "language": {
+    "search-no-results-text": "No results",
+    "search-matching-documents-text": "matching documents",
+    "search-copy-link-title": "Copy link to search",
+    "search-hide-matches-text": "Hide additional matches",
+    "search-more-match-text": "more match in this document",
+    "search-more-matches-text": "more matches in this document",
+    "search-clear-button-title": "Clear",
+    "search-text-placeholder": "",
+    "search-detached-cancel-button-title": "Cancel",
+    "search-submit-button-title": "Submit",
+    "search-label": "Search"
+  }
+}</script>
+
+
+</head>
+
+<body class="nav-sidebar floating">
+
+<div id="quarto-search-results"></div>
+  <header id="quarto-header" class="headroom fixed-top">
+  <nav class="quarto-secondary-nav">
+    <div class="container-fluid d-flex">
+      <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" role="button" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+        <i class="bi bi-layout-text-sidebar-reverse"></i>
+      </button>
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./2_Capitulo.html"><span class="chapter-number">2</span>&nbsp; <span class="chapter-title"><strong>El surgimiento de la informática moderna, Internet y la Web</strong></span></a></li></ol></nav>
+        <a class="flex-grow-1" role="navigation" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
+        </a>
+      <button type="button" class="btn quarto-search-button" aria-label="Search" onclick="window.quartoOpenSearch();">
+        <i class="bi bi-search"></i>
+      </button>
+    </div>
+  </nav>
+</header>
+<!-- content -->
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article">
+<!-- sidebar -->
+  <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal quarto-sidebar-collapse-item sidebar-navigation floating overflow-auto">
+    <div class="pt-lg-2 mt-2 text-left sidebar-header">
+    <div class="sidebar-title mb-0 py-0">
+      <a href="./">Desarrollo Web FontEnd</a> 
+    </div>
+      </div>
+        <div class="mt-2 flex-shrink-0 align-items-center">
+        <div class="sidebar-search">
+        <div id="quarto-search" class="" title="Search"></div>
+        </div>
+        </div>
+    <div class="sidebar-menu-container"> 
+    <ul class="list-unstyled mt-1">
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./index.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Bienvenida</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./1_Capitulo.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">1</span>&nbsp; <span class="chapter-title">Desarrolladores Web</span></span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./2_Capitulo.html" class="sidebar-item-text sidebar-link active">
+ <span class="menu-text"><span class="chapter-number">2</span>&nbsp; <span class="chapter-title"><strong>El surgimiento de la informática moderna, Internet y la Web</strong></span></span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./intro.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">3</span>&nbsp; <span class="chapter-title">Introduction</span></span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./summary.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">4</span>&nbsp; <span class="chapter-title">Summary</span></span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./references.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">References</span></a>
+  </div>
+</li>
+    </ul>
+    </div>
+</nav>
+<div id="quarto-sidebar-glass" class="quarto-sidebar-collapse-item" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item"></div>
+<!-- margin-sidebar -->
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">Table of contents</h2>
+   
+  <ul>
+  <li><a href="#la-tecnología-informática-y-la-sociedad-de-la-información" id="toc-la-tecnología-informática-y-la-sociedad-de-la-información" class="nav-link active" data-scroll-target="#la-tecnología-informática-y-la-sociedad-de-la-información"><span class="header-section-number">2.1</span> <strong>La tecnología informática y la sociedad de la información</strong></a></li>
+  <li><a href="#section" id="toc-section" class="nav-link" data-scroll-target="#section"><span class="header-section-number">2.2</span> </a></li>
+  <li><a href="#los-artefactos-computarizados-y-sus-fines" id="toc-los-artefactos-computarizados-y-sus-fines" class="nav-link" data-scroll-target="#los-artefactos-computarizados-y-sus-fines"><span class="header-section-number">2.3</span> <strong>Los artefactos computarizados y sus fines</strong></a></li>
+  <li><a href="#el-complejo-militar-industrial-y-el-desarrollo-de-la-computación-moderna" id="toc-el-complejo-militar-industrial-y-el-desarrollo-de-la-computación-moderna" class="nav-link" data-scroll-target="#el-complejo-militar-industrial-y-el-desarrollo-de-la-computación-moderna"><span class="header-section-number">2.4</span> <strong>El complejo militar industrial y el desarrollo de la computación moderna</strong></a></li>
+  <li><a href="#la-creación-de-supercomputadoras-militares" id="toc-la-creación-de-supercomputadoras-militares" class="nav-link" data-scroll-target="#la-creación-de-supercomputadoras-militares"><span class="header-section-number">2.5</span> <strong>La creación de supercomputadoras militares</strong></a></li>
+  <li><a href="#historia-de-internet-y-la-world-wide-web" id="toc-historia-de-internet-y-la-world-wide-web" class="nav-link" data-scroll-target="#historia-de-internet-y-la-world-wide-web"><span class="header-section-number">2.6</span> <strong>Historia de Internet y la World Wide Web</strong></a></li>
+  </ul>
+</nav>
+    </div>
+<!-- main -->
+<main class="content" id="quarto-document-content">
+
+<header id="title-block-header" class="quarto-title-block default">
+<div class="quarto-title">
+<h1 class="title"><span class="chapter-number">2</span>&nbsp; <span class="chapter-title"><strong>El surgimiento de la informática moderna, Internet y la Web</strong></span></h1>
+</div>
+
+
+
+<div class="quarto-title-meta">
+
+    
+  
+    
+  </div>
+  
+
+
+</header>
+
+
+<section id="la-tecnología-informática-y-la-sociedad-de-la-información" class="level2" data-number="2.1">
+<h2 data-number="2.1" class="anchored" data-anchor-id="la-tecnología-informática-y-la-sociedad-de-la-información"><span class="header-section-number">2.1</span> <strong>La tecnología informática y la sociedad de la información</strong></h2>
+<p>Para el filósofo canadiense Marshall McLuhan, los medios de comunicación en tanto invenciones tecnológicas se presentan como extensiones del cuerpo humano. En este sentido, cualquier artefacto o tecnología se encarga de potenciar una cualidad sensorial, un órgano o una función humana. Así el martillo es una extensión del brazo en tanto que expande la fuerza física del hombre; el lenguaje traduce nuestras experiencias y sentimientos, por lo cual expande el conocimiento y el saber; mientras que los medios eléctricos expanden sistemas de información, ya que la luz es información. Para este teórico, los medios electrónicos representan una extensión del sistema nervioso central. Específicamente, la computadora es -o intenta ser- una extensión del razonamiento humano. Según McLuhan, hasta mediados del siglo XIX la historia de la humanidad atravesaba la edad mecánica. Con la creación del telégrafo por parte de Samuel Morse en 1940 se inicia la llamada era de la información.</p>
+<p>La edad mecánica surge a mediados del siglo XV con la creación de la imprenta de Johann Gutemberg en 1455 caracterizada por el predominio de la palabra escrita y los medios mecánicos como extensiones el cuerpo humano. En la misma, el modelo de percepción es la página impresa, es decir, la percepción lineal en tanto sucesión espacial y temporal. El hombre era un hombre eminentemente tipográfico y el trabajo estaba centrado en la división de tareas y la especialización de funciones. En cuanto al concepto de comunicación, el concepto estaba asociado con el traslado físico de personas de un lugar a otro mediante la conexión entre carreteras, puentes, ríos y canales. El modelo industrial, claramente era la cadena de montaje para la elaboración de productos uniformes y repetitivos.</p>
+<p>La era de la información, en cambio, está caracterizada por el compromiso sensorial total, especialmente táctil, en lugar del predominio de lo visual de la palabra escrita. En este sentido los medios predominantes son los medios eléctricos en vez de mecánicos en tanto extensiones del sistema nervioso central. Para McLuhan el modelo de percepción es el ciberespacio, un espacio artificial generado por el telégrafo, teléfono, radio y televisión que suplanta el lugar de la percepción lineal. El hombre es eminentemente gráfico y el trabajo está basado en la recolección de información. La comunicación, en cambio ya no representa el movimiento de personas sino de información. El modelo industrial se basa en transmisión de información para el ofrecimiento de productos diversos y variados en lugar de uniformes y repetitivos.</p>
+<p>Con la llegada de la electricidad se enfatizan los sentidos del hombre y los artefactos tienden a reincorporar a los usuarios. La luz es información y tiene carácter inmediato y los sentidos se desarrollan en forma simultánea, discontinua y dinámica. Durante la edad mecánica las sociedades eran verticales adaptadas a las materias primas, la manufactura y actividades jerárquicas, las ciudades y los pueblos surgían alrededor del ferrocarril que actúa como tejido conector de lo económico-social. En la era de la información, en cambio, existen áreas geográficas que combinarán industrias dedicadas a productos de microelectrónica como Silicon Valley y mercados de intercambio de información donde el hombre tendrá capacidad de interconectarse con cualquier persona sobre la faz de la tierra.</p>
+<p>Para Manuel Castells, en cambio, la sociedad informacional se inicia con la crisis del petróleo de 1973-74. Para este filosofo, a partir de ese momento se produce un agotamiento del Estado de Bienestar de posguerra, lo que obliga a una reestructuración del sistema capitalista a nivel global en tanto modo de producción. La inversión tecnológica masiva realizada por el gobierno norteamericano en el programa espacial a partir de 1957 dio lugar a una serie de innovaciones tecnológicas durante la década de 1970 -que en Estados Unidos tuvo como epicentro a Silicon Valley- que produjo una revolución tecnológica donde los frutos de esta reflejan la sociedad en la que estamos inmersos hoy en día.</p>
+<p>Esta revolución se apoya en las tecnologías de la información, que tienen la capacidad de penetración en todo ámbito de la actividad humana. Si bien para Castells la tecnología no cambia la sociedad -tal como afirma el determinismo tecnológico- ni la sociedad es la que dicta los cambios tecnológicos, el resultado depende de una compleja interacción entre ambos. Esta revolución tecnológica sirvió para una restructuración profunda del sistema capitalista en la década siguiente. De un modo de desarrollo industrial el capitalismo pasó a un modo de desarrollo informacional.</p>
+<p>Para este filosofo el capitalismo sufre a partir de la década del 1970 un proceso de reestructuración profunda caracterizado por una mayor flexibilidad de gestión, descentralización e interconexión entre empresas, aumento del capital frente al trabajo, declive del movimiento sindical, individualización y diversificación del trabajo. El industrialismo se orientaba hacia el crecimiento económico, hacia la maximización del producto mientras que el informacionismo se orienta hacia el desarrollo tecnológico, la acumulación de conocimiento hacia grados complejos de procesamiento de la información.</p>
+<p>El modelo de desarrollo informacionista está basado en la flexibilización laboral, recorte de gastos públicos y un proceso de privatizaciones una vez agotado el modelo Keynesiano durante la década del 70 a partir de la crisis del petróleo y la inflación. En la sociedad informacional se destaca el papel de la información dentro de la sociedad. Si bien la información en tanto comunicación del conocimiento fue fundamental en todas las sociedades en la <em>sociedad informacional</em> se organiza en función de la generación, procesamiento y transmisión de información es un factor fundamental en términos de productividad y poder.</p>
+</section>
+<section id="section" class="level2" data-number="2.2">
+<h2 data-number="2.2" class="anchored" data-anchor-id="section"><span class="header-section-number">2.2</span> </h2>
+</section>
+<section id="los-artefactos-computarizados-y-sus-fines" class="level2" data-number="2.3">
+<h2 data-number="2.3" class="anchored" data-anchor-id="los-artefactos-computarizados-y-sus-fines"><span class="header-section-number">2.3</span> <strong>Los artefactos computarizados y sus fines</strong></h2>
+<p>Las primeras computadoras tenían un fin matemático, fue mediante la creación del Ábaco en el año 3000 a.c en Babilonia que mediante un artefacto se realizaban operaciones de suma, resta, multiplicación y división. Con la creación del Astrolabio en el Siglo I a.c las computadoras tenían fines astronómicos, su objetivo era medir las posiciones y distancias del sol, la luna y las estrellas. En el siglo XVI: desarrollo de diferentes dispositivos mecánicos para la realización de cálculos matemáticos. En 1640 el británico Blaise Pascal crea la “pascalina” basada en cilindros y engranajes.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><a href="https://www.revistatransformaciondigital.com/2021/10/28/la-pascalina-la-primera-calculadora-mecanica-inventada-por-blaise-pascal-en-1645/"><img src="images/1-pascalina.jpg" class="img-fluid quarto-figure quarto-figure-center figure-img" alt="Imagen de la Pascalina"></a></p>
+</figure>
+</div>
+<figcaption>Imagen de la Pascalina</figcaption>
+</figure>
+</div>
+<p>A principios del siglo XVI las computadoras se comenzaron a utilizar con <em>fines demográficos</em> para la realización de censos poblacionales. Con la incorporación de <em>tarjetas perforadas</em> a los dispositivos se inició una nueva generación de computadoras, en tanto estas podían realizar cálculos más complejos y agregar más funciones a las habituales. Las funciones que se incorporaron ya no eran solamente suma, resta, multiplicación y división, sino también raíz cuadrada, conversión de decimal a binario, funciones logarítmicas y trigonométricas, incorporación de sumas con numeraciones con mayor cantidad de dígitos, etc., utilizadas frecuentemente para contabilizar y registrar la cantidad de habitantes en una región, entre otras cosas.</p>
+<p>Las tarjetas perforadas serían utilizadas para almacenar los <em>“programas”</em> de la máquina, quien le daba las instrucciones para operar. Asimismo, fueron adoptadas por la industria de los telares para que un hilador pudiera producir telas sin necesidad de un asistente. Fue Joseph Jacquard quien diseñó un modelo donde la tarjeta estaba colgada sobre un tambor rotatorio para controlar el hilo en forma automática. De ahí el nombre de la tela.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><a href="https://www.tecnologia-informatica.com/las-tarjetas-perforadas-historia-de-la-computadora/"><img src="images/2-tarjetas-perforadas.jpg" class="img-fluid quarto-figure quarto-figure-center figure-img" alt="Tarjetas Perforadas"></a></p>
+</figure>
+</div>
+<figcaption>Tarjetas Perforadas</figcaption>
+</figure>
+</div>
+<p>En 1820 el británico Charles Babbage propone la <em>“máquina diferencial”</em> a la Real Sociedad Astronómica de Londres. Definida como “<em>la máquina que se come su propia cola”</em> realizaba operaciones complejas en forma automatizada en base a un sistema de retroalimentación. Era un dispositivo con memoria, es decir, donde los números fueran almacenados en registros, denominados almacenes. El mecanismo fue denominado “la cadena” donde una especie de rodillo podía moverse mediante una fuerza aplicada en sus extremos. “El molino” era la otra parte además del almacén donde se realizarían las operaciones aritméticas. Si se establece una analogía con la computadora personal moderna, el molino sería la unidad de procesamiento (CPU) mientras que el almacén, la memoria RAM.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><a href="https://www.radioreloj.cu/efemeride-ciencia/charles-babbage-propone-la-maquina-diferencial-en-la-royal-astronomical-society/"><img src="images/3-la-cadena-memoria-ram.jpg" class="img-fluid quarto-figure quarto-figure-center figure-img" alt="“La Cadena” - Máquina Diferencial"></a></p>
+</figure>
+</div>
+<figcaption>“La Cadena” - Máquina Diferencial</figcaption>
+</figure>
+</div>
+<p>Pero fue recién en el Siglo XX en el período de entreguerras, más específicamente durante la década de 1930 cuando las fuerzas armadas y agencias de seguridad de países desarrollados comienzan a interesarse por el uso de computadoras con fines militares. Es aquí donde comienza una fuerte inversión por parte de los gobiernos de las principales potencias mundiales en investigación y desarrollo para la creación de supercomputadoras que tengan objetivos bélicos apoyado en laboratorios de investigación de empresas contratistas y universidades.</p>
+<p>Es así como el complejo militar-industrial va a ser condicionante para el desarrollo de la computación moderna.</p>
+</section>
+<section id="el-complejo-militar-industrial-y-el-desarrollo-de-la-computación-moderna" class="level2" data-number="2.4">
+<h2 data-number="2.4" class="anchored" data-anchor-id="el-complejo-militar-industrial-y-el-desarrollo-de-la-computación-moderna"><span class="header-section-number">2.4</span> <strong>El complejo militar industrial y el desarrollo de la computación moderna</strong></h2>
+<p>La inversión gubernamental de las grandes potencias para el desarrollo de supercomputadoras que cumplan funciones militares demuestra la fe depositada en la tecnología para hacer ganar una guerra a un país o una nación. Apoyada en el trabajo conjunto con los laboratorios de investigación de grandes firmas privadas y de las universidades, esta alianza tuvo su correlato en la realización de grandes innovaciones tecnológicas que dieron lugar al desarrollo de la computación moderna. En los Estados Unidos existen tres ejemplos paradigmáticos que son el Instituto de Tecnología de Massachussets (MIT) y los Laboratorios Bell.</p>
+<p>El MIT es una de las instituciones de educación universitaria con sede en Cambridge, Massachusetts más importante del mundo en materia de tecnología que ha desarrollado importantes innovaciones a partir del financiamiento gubernamental y empresarial. Creada en 1861 como institución privada, en pleno desarrollo industrial de los Estados Unidos, su objetivo era realizar investigaciones que favorecieran el cambio tecnológico de la época. Si bien funciona como una universidad politécnica, se destacada en el campo de la ingeniería. Su desarrollo histórico creció exponencialmente a partir de su intromisión en el desarrollo militar durante la Segunda Guerra Mundial. Durante el conflicto bélico administró el Laboratorio de Radiación, el principal centro de investigación y desarrollo de radares de los Estados Unidos. En la posguerra, el instituto colaboró estrechamente para el departamento de Defensa de los EE. UU. en el desarrollo de la computación, Internet y programas varios, como en el área de Inteligencia Artificial, donde en 1957 John McCarthy crea el primer laboratorio del país desde donde se realizaron varias investigaciones aplicadas al campo militar.</p>
+<p>Ya durante la década del 60, varios de sus miembros trabajaron en forma asociada para el gobierno de los Estados Unidos para el desarrollo de la red de computadoras militares ARPANET, donde se desarrolló la teoría de conmutación para la transmisión de datos mediante paquetes de información suplantando los circuitos eléctricos. En el área de la informática interactiva, fue Larry Roberts, ingeniero del instituto, quien realizó la primera conexión de la historia entre Massachusetts y California desde la Oficina de Técnicas de Procesamiento de la Información de ARPA, la Agencia de proyectos Avanzados del Departamento de</p>
+<p>Defensa. Asimismo, el término hacker aparece por primera vez a partir de la auto denominación de los programadores informáticos MIT a partir de la admiración que les producían los técnicos de la empresa de telefonía norteamericana ATT de arreglar “a golpes de hachazos” las cajas de los postes callejeros.</p>
+<p>Otro centro de investigación privado son los laboratorios de la empresa de telefonía Bell Corporation. Fundado en 1925, los “Bell Lab” se crearon por iniciativa del dueño de la patente del teléfono, Alexander Graham Bell al comprar acciones en la compañía Western Electric, asociada a AT&amp;T, donde a partir de entonces ambas compañías acuerdan financiar la creación de este centro. La mayoría de las innovaciones de los laboratorios Bell se orientan a las comunicaciones, donde se destaca la instalación de cables submarinos para las comunicaciones telefónicas intercontinentales en 1927 y los satélites de telecomunicaciones, cuando a través del TELSTAR 1 se transmitieron imágenes de televisión y llamadas telefónicas a través del espacio. El cine también fue parte de las innovaciones del centro cuando en 1926 se desarrolló el sistema de grabación y reproducción de sonido con imágenes en movimiento.</p>
+<p>Pero la invención más destacada para el desarrollo de supercomputadoras fue el transistor en 1947, donde se dio inicio a una nueva generación de computadoras al sustituir los tubos de vacío por los cuales funcionaban hasta ese momento. Asimismo, bajo financiación gubernamental, el laboratorio también participo en el diseño de la tecnología de conmutación para la trasmisión digital de datos en redes de telefonía en 1962. Además de diversas publicaciones científicas y técnicas realizadas por encargo del Departamento de Defensa de los Estados Unidos en la actualidad, el centro se encuentra bajo la órbita de la empresa Alcatel Lucent y es pionera en las investigaciones para incrementar la velocidad de transmisión de datos en las redes, telefonía celular y telecomunicaciones en general.</p>
+</section>
+<section id="la-creación-de-supercomputadoras-militares" class="level2" data-number="2.5">
+<h2 data-number="2.5" class="anchored" data-anchor-id="la-creación-de-supercomputadoras-militares"><span class="header-section-number">2.5</span> <strong>La creación de supercomputadoras militares</strong></h2>
+<p>En cuanto a los fines militares de las computadoras, en líneas generales, los mismos estaban orientados a dos objetivos:</p>
+<ul>
+<li><p>En materia balística: para calcular la trayectoria de los proyectiles por parte de la artillería en conflictos bélicos;</p></li>
+<li><p>En materia de seguridad de las comunicaciones: para cifrar los mensajes del ejército a partir del uso de la criptografía.</p></li>
+</ul>
+<p>En materia balística, en 1939 los Laboratorios Bell diseñaron para el Comité para la Investigación para la Defensa Nacional de los Estados Unidos una computadora que permitía fijar en forma automática el blanco de la artillería antiaérea. La <em>Complex Number Computer</em> funcionó de 1940 a 1950 en el laboratorio del Ejército norteamericano. En 1944, IBM pone en funcionamiento la computadora <em>Mark I</em>, financiada por el Gobierno para solucionar problemas de balística y diseño naval al final de la Segunda Guerra Mundial.</p>
+<p>En materia de seguridad de las comunicaciones hubo una amplia inversión en la creación de supercomputadoras criptográficas2.</p>
+<p>El desarrollo de las maquinas criptografías se inicia en 1919 en Alemania, cuando la compañía Heimsoeth &amp; Rinke crea la máquina <em>Enigma</em>, una computadora capaz de cifrar mensajes mediante técnicas de sustitución criptográficas. Tras el fracaso comercial fue vendida al Ejército alemán en 1928 y posteriormente utilizada en la Segunda Guerra Mundial. Es justamente durante dicho conflicto bélico que se desarrolló la criptografía moderna, basada en estudios científicos provenientes de diferentes disciplinas como la matemática Discreta, la Teoría de los Grandes Números y las Ciencias de la Computación.</p>
+<p>En 1939 los servicios de inteligencia inglés y francés fueron invitados por su símil de Polonia a una reunión secreta para mostrarles el funcionamiento de unas máquinas de desciframiento llamadas “bombas”, una de las cuales venían decodificando los mensajes de la Enigma mediante la simulación del movimiento de los rotores de esta. El motivo de la reunión fue compartir la información con esos países ante la inminencia del estallido de la guerra. En 1940, el matemático ingles Alan Turing elaboraría una versión mejorada de estas máquinas. La bomba inglesa media 2,40 de alto y 2.40 de diámetro y fue la primera máquina electromecánica dedicada al criptoanálisis<strong>.</strong></p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><a href="https://blogs.uoc.edu/informatica/es/bletchley-park-i-las-maquinas-enigma-y-la-bombe/"><img src="images/4-primeras-supercomputadoras.jpg" class="img-fluid quarto-figure quarto-figure-center figure-img" alt="Supercomputadora Criptográfica"></a></p>
+</figure>
+</div>
+<figcaption>Supercomputadora Criptográfica</figcaption>
+</figure>
+</div>
+<p>En ese entonces se comenzaron a utilizar las maquinas que se encargaban de cifrar los mensajes basadas en la técnica de discos rotativos, como la TYPEX británica o la Converter M-209 estadounidense. En 1943 en Inglaterra se pone en funcionamiento la computadora <em>Colossus</em><strong>,</strong> una máquina descifradora automática. Una vez finalizada la contienda mundial, el primer ministro británico Winston Churchill ordenó la destrucción de las 10 Colossus operativas y decretó el secreto de funcionamiento por 30 años.</p>
+</section>
+<section id="historia-de-internet-y-la-world-wide-web" class="level2" data-number="2.6">
+<h2 data-number="2.6" class="anchored" data-anchor-id="historia-de-internet-y-la-world-wide-web"><span class="header-section-number">2.6</span> <strong>Historia de Internet y la World Wide Web</strong></h2>
+<p>La historia de Internet comienza durante la denominada Guerra Fría, un enfrenamiento bélico no declarado que se inicia a partir de 1945 entre las dos potencias victoriosas de la Segunda Guerra Mundial: los Estados Unidos y La Unión Soviética, basado en un enfrentamiento político entre el sistema capitalista y el comunismo soviético. Pero fue recién en 1957 cuando la URSS lanza al espacio el satélite Sputnik cuando comienza una batalla entre ambas potencias en el plano tecnológico. Un año después de este acontecimiento, el presidente norteamericano Dwight Eisenhower ordena la creación de una agencia de investigación y desarrollo (I+D) para la realización de estudios sobre material bélico y comunicaciones. Es así como en 1958 se crea la Agencia de Investigación de Proyectos Avanzados (ARPA) en el seno del Departamento de Defensa de los Estados Unidos.</p>
+<p>Joseph Licklider, psicólogo e investigador asociado del MIT es nombrado Director del Programa de Investigación Informática de ARPA con el objeto de mejorar las comunicaciones del ejército a través de computadoras. En 1962 presenta una serie de memorándums para crear una red de computadoras bajo el nombre de “Red Galáctica”. Por aquel entonces imaginó un conjunto de computadoras conectadas entre sí globalmente por donde se podía acceder a datos e información y al uso compartido de programas desde todo el mundo. Dos años más tarde, en 1964, Leonard Kleinrock -ingeniero eléctrico e investigador también del MIT- publica un libro sobre la teoría de la conmutación de paquetes donde afirmaba que era factible que las computadoras se comuniquen entre sí a través de paquetes de datos y no de circuitos eléctricos.</p>
+<p>Al año siguiente, en 1965 el ingeniero Larry Roberts, del mismo instituto, realizó una prueba piloto desde la Oficina de Técnicas de Procesamiento de la Información (IPTO) conectando dos computadoras entre Massachusetts y California e intercambiando datos. Es allí donde se estableció la primera comunicación entre computadoras de la historia. La interconexión se realizó mediante una línea telefónica conmutada. Fue la primera red de computadoras de tiempo compartido donde podían ejecutar programas al mismo tiempo en forma remota (a distancia) e intercambiar datos entre sí.</p>
+<p>Tras estos hechos, el Departamento de Defensa aprueba la realización de una red de computadoras con un objetivo militar: la creación de un medio de comunicación flexible y descentralizado que sirva como medio de comunicación alternativo a los sistemas de telecomunicaciones tradicionales (teléfono, telégrafo). Este objetivo partía de la hipótesis de un posible conflicto bélico dentro del territorio norteamericano que colapsara las comunicaciones internas, fundamentalmente frente a un posible ataque nuclear soviético.</p>
+<p>Pero fue recién en 1969 que se establecieron conexiones fijas entre la Universidad de California (UCLA) y el Instituto de Investigación de Stanford (SRI) de la Universidad de Utah y la Universidad de Santa Bárbara de California Estableciéndose como nodos principales, se da inicio a ARPANET, la red de computadoras militares de ARPA.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><a href="https://nic.ar/es/enterate/novedades/arpanet-el-origen-de-internet"><img src="images/5-nodos-ARPA.jpg" class="img-fluid quarto-figure quarto-figure-center figure-img" alt="Bosquejo Original - NODOS ARPA"></a></p>
+</figure>
+</div>
+<figcaption>Bosquejo Original - NODOS ARPA</figcaption>
+</figure>
+</div>
+<p>Ya durante la década siguiente, en 1972 se inicia el Programa <em>Internetting con el</em> objetivo de establecer una red de <em>“arquitectura abierta</em>” que tenga como centro de interconexión a ARPANET. Una red de redes donde cada una mantenga su propia estructura y configuración. Reglas básicas del Programa eran:</p>
+<ol type="1">
+<li><p>Cada red debía mantenerse por sí misma y no debía haber cambio alguno para que pudiera conectarse a Internet.</p></li>
+<li><p>La comunicación debía hacerse en base al mejor esfuerzo (“best effort”) si un paquete de datos no llegaba a destino debía retransmitirse desde el origen.</p></li>
+<li><p>Se usarían cajas negras para interconectar las redes (puertas de enlace y enrutadores) sin que guarden información sobre los paquetes de datos.</p></li>
+<li><p>No debía haber control global a nivel operativo</p></li>
+</ol>
+<p>Tras el desarrollo de diferentes innovaciones tecnológicas en el área de la informática interactiva y el surgimiento de nuevas redes organizacionales, el Departamento de Defensa de los EE. UU. -preocupado por la seguridad de las comunicaciones- crea en 1983 MILNET, una red subsidiaria de ARPANET para investigaciones militares. Librada de fines militares, la red pasó a llamarse ARPANET-INTERNET con fines de investigación académica.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><a href="https://www.livinginternet.com/i/ii_arpanet.htm"><img src="images/6-ARPANET-MILNET.jpg" class="img-fluid quarto-figure quarto-figure-center figure-img" alt="Migración de ARPANET a MILNET"></a></p>
+</figure>
+</div>
+<figcaption>Migración de ARPANET a MILNET</figcaption>
+</figure>
+</div>
+<p>En términos políticos, en 1985 asume Mikail Gorvachov como Secretario General del Partido Comunista en la Unión Soviética. Un año más tarde se produce la explosión en la planta nuclear de Chernobyl, hecho que aceleró un proceso de reforma de la economía soviética conocida como “Perestroika (reestructuración, en ruso). Esto marca el inicio de una distensión política entre los Estados Unidos y la Unión Soviética a partir de un acercamiento entre los presidentes de ambos países George Bush y Gorbachov. Estados Unidos se identifica victorioso de la contienda política y la competitividad tecnológica y no percibe a la URSS como una amenaza en términos militares.</p>
+<p>En este contexto la Fundación Nacional de la Ciencia (NSF, sus siglas en inglés) de los Estados Unidos solicita autorización al Congreso de ese país para construir una red de computadoras científica a nivel nacional para toda la comunidad académica y de investigación del país. Es así como al año siguiente se crea NSFNET, la Red para la Ciencia Nacional.</p>
+<p>En 1988 se crea el <em>Commercial Internet Exchange</em>, un consorcio de proveedores de redes comerciales y regionales para la explotación privada de la red. Su objetivo era brindar servicio de acceso comercial a la red más allá de la NSFNET. Bajo el nombre <em>“La comercialización y privatización de Internet”</em> se inician conferencias en Harvard. El Senador Al Gore elaboró un proyecto para la creación de la Infraestructura Nacional de la Información (NNI) para el desarrollo de las <em>autopistas de la información.</em></p>
+<p>Por otro lado, a mediados de los 80s, Tim Berners Lee, un físico británico ingresa al Área de Conexiones de Red del Centro para la Investigación Nuclear Europeo (CERN) con el fin de diseñar un sistema informático que permitiese solucionar la dispersión de documentación almacenada en diferentes computadoras de la organización. Su proyecto constaba del desarrollo de un programa llamado Enquire Within Upon Everything (“Pregunte acerca de todo”) y permitiría el intercambio automatizado de información y la consulta por Internet durante las 24 horas. Pero el CERN le asignó una importancia secundaria y Berners Lee partió de la organización.</p>
+<p>El programa estaba basado en la idea del hipertexto, desarrollada por el ingeniero del MIT Vannevar Bush en 1945 en un artículo titulado “As We May Thing” (Como podemos pensar) publicado en The Atlantic Monthy. Para Bush - quien formó parte del Proyecto Manhattan que diseñó la bomba atómica para los Estados Unidos- “La mente humana funciona por “asociación” de ideas a través de una red de caminos de células del cerebro”. Tradicionalmente la información se clasifica alfabética y numéricamente y se organiza jerárquicamente siguiendo la pauta de grupos o clases. Para este ingeniero se debía trabajar a partir de la Indexación, donde cualquier elemento puede ser enlazado automáticamente a otro del acuerdo al interés de conocimiento.</p>
+<p>Bush imagino la creación de un dispositivo llamado <em>Memex</em> que tenga la <strong>c</strong>apacidad de almacenar información textual y grafica donde cualquier pieza se pueda vincular entre si arbitrariamente, se puedan añadir notas marginales aprovechándose de fotografías y el acceso a la información mediante “enlaces” por el cual luego podía ser recuperada desde el origen. Memex iba a estar compuesto por un escritorio, pantallas translucidas en el que el material es proyectado, teclados, botones y palancas para establecer una mejor comunicación.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><a href="https://hipertexto.fandom.com/es/wiki/MEMEX"><img src="images/7-proyecto-MEMEX.jpg" class="img-fluid quarto-figure quarto-figure-center figure-img" alt="Proyecto MEMEX"></a></p>
+</figure>
+</div>
+<figcaption>Proyecto MEMEX</figcaption>
+</figure>
+</div>
+<p>Si bien la idea de de un hipertexto fue concebida por Bush en 1945, el término fue acuñado por el filósofo y sociólogo estadounidense Theodore Nedson en 1965 en un paper escrito para la Revista <em>Literary Machines.</em> El hipertexto es una Forma de escritura no lineal o secuencial, un tipo de texto que se ramifica y permite la elección al lecto y funciona a través de una pantalla interactiva. En el artículo describe una máquina concebida teóricamente en 1960 por Nelson bajo el nombre Proyecto Xanadú, que constaba de una base de datos universal de conocimiento fundado en un archivo de documentos (“docuverso”) donde los archivos se encadenan entre sí a modo de enlace directo entre citas y notas de texto.</p>
+<p>En 1989 Tim Berners Lee regresa al CERN presenta el proyecto Information Management: A Proposal (“Una propuesta para la gestión de información”) donde propone la creación de una infraestructura mundial de información con el objetivo de solucionar las deficiencias en la entrega de información entre los diferentes centros de investigación del CERN. Basado en la tecnología del hipertexto, el sistema permitiría el intercambio automatizado de información y la consulta de documentación por Internet durante las 24 horas. El proyecto fue aprobado por las autoridades del Centro, recibió financiamiento necesario para comenzarlo un año más tarde y el nombre del programa fue reformulado al de World Wide Web. El mismo constaba de un programa navegador, un Lenguaje informático para su funcionamiento (HTML), un Protocolo de comunicaciones (HTTP) y un sistema de Sistema de direcciones (URLs).</p>
+<p><strong>Recuerde:</strong> En cada imagen existe una fuente de consulta, la misma que de alguna forma podría ampliar su conocimiento.</p>
+<p>No olvide que sus aportes son muy valiosos, para el desarrollo de este texo.</p>
+
+
+</section>
+
+</main> <!-- /main -->
+<script id="quarto-html-after-body" type="application/javascript">
+window.document.addEventListener("DOMContentLoaded", function (event) {
+  const toggleBodyColorMode = (bsSheetEl) => {
+    const mode = bsSheetEl.getAttribute("data-mode");
+    const bodyEl = window.document.querySelector("body");
+    if (mode === "dark") {
+      bodyEl.classList.add("quarto-dark");
+      bodyEl.classList.remove("quarto-light");
+    } else {
+      bodyEl.classList.add("quarto-light");
+      bodyEl.classList.remove("quarto-dark");
+    }
+  }
+  const toggleBodyColorPrimary = () => {
+    const bsSheetEl = window.document.querySelector("link#quarto-bootstrap");
+    if (bsSheetEl) {
+      toggleBodyColorMode(bsSheetEl);
+    }
+  }
+  toggleBodyColorPrimary();  
+  const icon = "";
+  const anchorJS = new window.AnchorJS();
+  anchorJS.options = {
+    placement: 'right',
+    icon: icon
+  };
+  anchorJS.add('.anchored');
+  const isCodeAnnotation = (el) => {
+    for (const clz of el.classList) {
+      if (clz.startsWith('code-annotation-')) {                     
+        return true;
+      }
+    }
+    return false;
+  }
+  const onCopySuccess = function(e) {
+    // button target
+    const button = e.trigger;
+    // don't keep focus
+    button.blur();
+    // flash "checked"
+    button.classList.add('code-copy-button-checked');
+    var currentTitle = button.getAttribute("title");
+    button.setAttribute("title", "Copied!");
+    let tooltip;
+    if (window.bootstrap) {
+      button.setAttribute("data-bs-toggle", "tooltip");
+      button.setAttribute("data-bs-placement", "left");
+      button.setAttribute("data-bs-title", "Copied!");
+      tooltip = new bootstrap.Tooltip(button, 
+        { trigger: "manual", 
+          customClass: "code-copy-button-tooltip",
+          offset: [0, -8]});
+      tooltip.show();    
+    }
+    setTimeout(function() {
+      if (tooltip) {
+        tooltip.hide();
+        button.removeAttribute("data-bs-title");
+        button.removeAttribute("data-bs-toggle");
+        button.removeAttribute("data-bs-placement");
+      }
+      button.setAttribute("title", currentTitle);
+      button.classList.remove('code-copy-button-checked');
+    }, 1000);
+    // clear code selection
+    e.clearSelection();
+  }
+  const getTextToCopy = function(trigger) {
+      const codeEl = trigger.previousElementSibling.cloneNode(true);
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
+        }
+      }
+      return codeEl.innerText;
+  }
+  const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
+    text: getTextToCopy
+  });
+  clipboard.on('success', onCopySuccess);
+  if (window.document.getElementById('quarto-embedded-source-code-modal')) {
+    // For code content inside modals, clipBoardJS needs to be initialized with a container option
+    // TODO: Check when it could be a function (https://github.com/zenorocha/clipboard.js/issues/860)
+    const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
+      text: getTextToCopy,
+      container: window.document.getElementById('quarto-embedded-source-code-modal')
+    });
+    clipboardModal.on('success', onCopySuccess);
+  }
+    var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+    var mailtoRegex = new RegExp(/^mailto:/);
+      var filterRegex = new RegExp('/' + window.location.host + '/');
+    var isInternal = (href) => {
+        return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
+    }
+    // Inspect non-navigation links and adorn them if external
+ 	var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool):not(.about-link)');
+    for (var i=0; i<links.length; i++) {
+      const link = links[i];
+      if (!isInternal(link.href)) {
+        // undo the damage that might have been done by quarto-nav.js in the case of
+        // links that we want to consider external
+        if (link.dataset.originalHref !== undefined) {
+          link.href = link.dataset.originalHref;
+        }
+      }
+    }
+  function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
+    const config = {
+      allowHTML: true,
+      maxWidth: 500,
+      delay: 100,
+      arrow: false,
+      appendTo: function(el) {
+          return el.parentElement;
+      },
+      interactive: true,
+      interactiveBorder: 10,
+      theme: 'quarto',
+      placement: 'bottom-start',
+    };
+    if (contentFn) {
+      config.content = contentFn;
+    }
+    if (onTriggerFn) {
+      config.onTrigger = onTriggerFn;
+    }
+    if (onUntriggerFn) {
+      config.onUntrigger = onUntriggerFn;
+    }
+    window.tippy(el, config); 
+  }
+  const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+  for (var i=0; i<noterefs.length; i++) {
+    const ref = noterefs[i];
+    tippyHover(ref, function() {
+      // use id or data attribute instead here
+      let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+      try { href = new URL(href).hash; } catch {}
+      const id = href.replace(/^#\/?/, "");
+      const note = window.document.getElementById(id);
+      if (note) {
+        return note.innerHTML;
+      } else {
+        return "";
+      }
+    });
+  }
+  const xrefs = window.document.querySelectorAll('a.quarto-xref');
+  const processXRef = (id, note) => {
+    // Strip column container classes
+    const stripColumnClz = (el) => {
+      el.classList.remove("page-full", "page-columns");
+      if (el.children) {
+        for (const child of el.children) {
+          stripColumnClz(child);
+        }
+      }
+    }
+    stripColumnClz(note)
+    if (id === null || id.startsWith('sec-')) {
+      // Special case sections, only their first couple elements
+      const container = document.createElement("div");
+      if (note.children && note.children.length > 2) {
+        container.appendChild(note.children[0].cloneNode(true));
+        for (let i = 1; i < note.children.length; i++) {
+          const child = note.children[i];
+          if (child.tagName === "P" && child.innerText === "") {
+            continue;
+          } else {
+            container.appendChild(child.cloneNode(true));
+            break;
+          }
+        }
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(container);
+        }
+        return container.innerHTML
+      } else {
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(note);
+        }
+        return note.innerHTML;
+      }
+    } else {
+      // Remove any anchor links if they are present
+      const anchorLink = note.querySelector('a.anchorjs-link');
+      if (anchorLink) {
+        anchorLink.remove();
+      }
+      if (window.Quarto?.typesetMath) {
+        window.Quarto.typesetMath(note);
+      }
+      // TODO in 1.5, we should make sure this works without a callout special case
+      if (note.classList.contains("callout")) {
+        return note.outerHTML;
+      } else {
+        return note.innerHTML;
+      }
+    }
+  }
+  for (var i=0; i<xrefs.length; i++) {
+    const xref = xrefs[i];
+    tippyHover(xref, undefined, function(instance) {
+      instance.disable();
+      let url = xref.getAttribute('href');
+      let hash = undefined; 
+      if (url.startsWith('#')) {
+        hash = url;
+      } else {
+        try { hash = new URL(url).hash; } catch {}
+      }
+      if (hash) {
+        const id = hash.replace(/^#\/?/, "");
+        const note = window.document.getElementById(id);
+        if (note !== null) {
+          try {
+            const html = processXRef(id, note.cloneNode(true));
+            instance.setContent(html);
+          } finally {
+            instance.enable();
+            instance.show();
+          }
+        } else {
+          // See if we can fetch this
+          fetch(url.split('#')[0])
+          .then(res => res.text())
+          .then(html => {
+            const parser = new DOMParser();
+            const htmlDoc = parser.parseFromString(html, "text/html");
+            const note = htmlDoc.getElementById(id);
+            if (note !== null) {
+              const html = processXRef(id, note);
+              instance.setContent(html);
+            } 
+          }).finally(() => {
+            instance.enable();
+            instance.show();
+          });
+        }
+      } else {
+        // See if we can fetch a full url (with no hash to target)
+        // This is a special case and we should probably do some content thinning / targeting
+        fetch(url)
+        .then(res => res.text())
+        .then(html => {
+          const parser = new DOMParser();
+          const htmlDoc = parser.parseFromString(html, "text/html");
+          const note = htmlDoc.querySelector('main.content');
+          if (note !== null) {
+            // This should only happen for chapter cross references
+            // (since there is no id in the URL)
+            // remove the first header
+            if (note.children.length > 0 && note.children[0].tagName === "HEADER") {
+              note.children[0].remove();
+            }
+            const html = processXRef(null, note);
+            instance.setContent(html);
+          } 
+        }).finally(() => {
+          instance.enable();
+          instance.show();
+        });
+      }
+    }, function(instance) {
+    });
+  }
+      let selectedAnnoteEl;
+      const selectorForAnnotation = ( cell, annotation) => {
+        let cellAttr = 'data-code-cell="' + cell + '"';
+        let lineAttr = 'data-code-annotation="' +  annotation + '"';
+        const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
+        return selector;
+      }
+      const selectCodeLines = (annoteEl) => {
+        const doc = window.document;
+        const targetCell = annoteEl.getAttribute("data-target-cell");
+        const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
+        const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+        const lines = annoteSpan.getAttribute("data-code-lines").split(",");
+        const lineIds = lines.map((line) => {
+          return targetCell + "-" + line;
+        })
+        let top = null;
+        let height = null;
+        let parent = null;
+        if (lineIds.length > 0) {
+            //compute the position of the single el (top and bottom and make a div)
+            const el = window.document.getElementById(lineIds[0]);
+            top = el.offsetTop;
+            height = el.offsetHeight;
+            parent = el.parentElement.parentElement;
+          if (lineIds.length > 1) {
+            const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+            const bottom = lastEl.offsetTop + lastEl.offsetHeight;
+            height = bottom - top;
+          }
+          if (top !== null && height !== null && parent !== null) {
+            // cook up a div (if necessary) and position it 
+            let div = window.document.getElementById("code-annotation-line-highlight");
+            if (div === null) {
+              div = window.document.createElement("div");
+              div.setAttribute("id", "code-annotation-line-highlight");
+              div.style.position = 'absolute';
+              parent.appendChild(div);
+            }
+            div.style.top = top - 2 + "px";
+            div.style.height = height + 4 + "px";
+            div.style.left = 0;
+            let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+            if (gutterDiv === null) {
+              gutterDiv = window.document.createElement("div");
+              gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+              gutterDiv.style.position = 'absolute';
+              const codeCell = window.document.getElementById(targetCell);
+              const gutter = codeCell.querySelector('.code-annotation-gutter');
+              gutter.appendChild(gutterDiv);
+            }
+            gutterDiv.style.top = top - 2 + "px";
+            gutterDiv.style.height = height + 4 + "px";
+          }
+          selectedAnnoteEl = annoteEl;
+        }
+      };
+      const unselectCodeLines = () => {
+        const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
+        elementsIds.forEach((elId) => {
+          const div = window.document.getElementById(elId);
+          if (div) {
+            div.remove();
+          }
+        });
+        selectedAnnoteEl = undefined;
+      };
+        // Handle positioning of the toggle
+    window.addEventListener(
+      "resize",
+      throttle(() => {
+        elRect = undefined;
+        if (selectedAnnoteEl) {
+          selectCodeLines(selectedAnnoteEl);
+        }
+      }, 10)
+    );
+    function throttle(fn, ms) {
+    let throttle = false;
+    let timer;
+      return (...args) => {
+        if(!throttle) { // first call gets through
+            fn.apply(this, args);
+            throttle = true;
+        } else { // all the others get throttled
+            if(timer) clearTimeout(timer); // cancel #2
+            timer = setTimeout(() => {
+              fn.apply(this, args);
+              timer = throttle = false;
+            }, ms);
+        }
+      };
+    }
+      // Attach click handler to the DT
+      const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
+      for (const annoteDlNode of annoteDls) {
+        annoteDlNode.addEventListener('click', (event) => {
+          const clickedEl = event.target;
+          if (clickedEl !== selectedAnnoteEl) {
+            unselectCodeLines();
+            const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
+            if (activeEl) {
+              activeEl.classList.remove('code-annotation-active');
+            }
+            selectCodeLines(clickedEl);
+            clickedEl.classList.add('code-annotation-active');
+          } else {
+            // Unselect the line
+            unselectCodeLines();
+            clickedEl.classList.remove('code-annotation-active');
+          }
+        });
+      }
+  const findCites = (el) => {
+    const parentEl = el.parentElement;
+    if (parentEl) {
+      const cites = parentEl.dataset.cites;
+      if (cites) {
+        return {
+          el,
+          cites: cites.split(' ')
+        };
+      } else {
+        return findCites(el.parentElement)
+      }
+    } else {
+      return undefined;
+    }
+  };
+  var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+  for (var i=0; i<bibliorefs.length; i++) {
+    const ref = bibliorefs[i];
+    const citeInfo = findCites(ref);
+    if (citeInfo) {
+      tippyHover(citeInfo.el, function() {
+        var popup = window.document.createElement('div');
+        citeInfo.cites.forEach(function(cite) {
+          var citeDiv = window.document.createElement('div');
+          citeDiv.classList.add('hanging-indent');
+          citeDiv.classList.add('csl-entry');
+          var biblioDiv = window.document.getElementById('ref-' + cite);
+          if (biblioDiv) {
+            citeDiv.innerHTML = biblioDiv.innerHTML;
+          }
+          popup.appendChild(citeDiv);
+        });
+        return popup.innerHTML;
+      });
+    }
+  }
+});
+</script>
+<nav class="page-navigation">
+  <div class="nav-page nav-page-previous">
+      <a href="./1_Capitulo.html" class="pagination-link" aria-label="Desarrolladores Web">
+        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text"><span class="chapter-number">1</span>&nbsp; <span class="chapter-title">Desarrolladores Web</span></span>
+      </a>          
+  </div>
+  <div class="nav-page nav-page-next">
+      <a href="./intro.html" class="pagination-link" aria-label="Introduction">
+        <span class="nav-page-text"><span class="chapter-number">3</span>&nbsp; <span class="chapter-title">Introduction</span></span> <i class="bi bi-arrow-right-short"></i>
+      </a>
+  </div>
+</nav>
+</div> <!-- /content -->
+
+
+
+
+</body></html>
