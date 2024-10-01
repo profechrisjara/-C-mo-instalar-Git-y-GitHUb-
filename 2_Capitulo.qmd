@@ -24,17 +24,17 @@ El modelo de desarrollo informacionista está basado en la flexibilización labo
 
 Las primeras computadoras tenían un fin matemático, fue mediante la creación del Ábaco en el año 3000 a.c en Babilonia que mediante un artefacto se realizaban operaciones de suma, resta, multiplicación y división. Con la creación del Astrolabio en el Siglo I a.c las computadoras tenían fines astronómicos, su objetivo era medir las posiciones y distancias del sol, la luna y las estrellas. En el siglo XVI: desarrollo de diferentes dispositivos mecánicos para la realización de cálculos matemáticos. En 1640 el británico Blaise Pascal crea la “pascalina” basada en cilindros y engranajes.
 
-[![Imagen de la Pascalina](images/1-pascalina.jpg){fig-align="center"}](https://www.revistatransformaciondigital.com/2021/10/28/la-pascalina-la-primera-calculadora-mecanica-inventada-por-blaise-pascal-en-1645/)
+[![Imagen de la Pascalina](images_2_cap/1-pascalina.jpg){fig-align="center"}](https://www.revistatransformaciondigital.com/2021/10/28/la-pascalina-la-primera-calculadora-mecanica-inventada-por-blaise-pascal-en-1645/)
 
 A principios del siglo XVI las computadoras se comenzaron a utilizar con *fines demográficos* para la realización de censos poblacionales. Con la incorporación de *tarjetas perforadas* a los dispositivos se inició una nueva generación de computadoras, en tanto estas podían realizar cálculos más complejos y agregar más funciones a las habituales. Las funciones que se incorporaron ya no eran solamente suma, resta, multiplicación y división, sino también raíz cuadrada, conversión de decimal a binario, funciones logarítmicas y trigonométricas, incorporación de sumas con numeraciones con mayor cantidad de dígitos, etc., utilizadas frecuentemente para contabilizar y registrar la cantidad de habitantes en una región, entre otras cosas.
 
 Las tarjetas perforadas serían utilizadas para almacenar los *“programas”* de la máquina, quien le daba las instrucciones para operar. Asimismo, fueron adoptadas por la industria de los telares para que un hilador pudiera producir telas sin necesidad de un asistente. Fue Joseph Jacquard quien diseñó un modelo donde la tarjeta estaba colgada sobre un tambor rotatorio para controlar el hilo en forma automática. De ahí el nombre de la tela.
 
-[![Tarjetas Perforadas](images/2-tarjetas-perforadas.jpg){fig-align="center"}](https://www.tecnologia-informatica.com/las-tarjetas-perforadas-historia-de-la-computadora/)
+[![Tarjetas Perforadas](images_2_cap/2-tarjetas-perforadas.jpg){fig-align="center"}](https://www.tecnologia-informatica.com/las-tarjetas-perforadas-historia-de-la-computadora/)
 
 En 1820 el británico Charles Babbage propone la *“máquina diferencial”* a la Real Sociedad Astronómica de Londres. Definida como “*la máquina que se come su propia cola”* realizaba operaciones complejas en forma automatizada en base a un sistema de retroalimentación. Era un dispositivo con memoria, es decir, donde los números fueran almacenados en registros, denominados almacenes. El mecanismo fue denominado “la cadena” donde una especie de rodillo podía moverse mediante una fuerza aplicada en sus extremos. “El molino” era la otra parte además del almacén donde se realizarían las operaciones aritméticas. Si se establece una analogía con la computadora personal moderna, el molino sería la unidad de procesamiento (CPU) mientras que el almacén, la memoria RAM.
 
-[!["La Cadena" - Máquina Diferencial](images/3-la-cadena-memoria-ram.jpg){fig-align="center"}](https://www.radioreloj.cu/efemeride-ciencia/charles-babbage-propone-la-maquina-diferencial-en-la-royal-astronomical-society/)
+[!["La Cadena" - Máquina Diferencial](images_2_cap/3-la-cadena-memoria-ram.jpg){fig-align="center"}](https://www.radioreloj.cu/efemeride-ciencia/charles-babbage-propone-la-maquina-diferencial-en-la-royal-astronomical-society/)
 
 Pero fue recién en el Siglo XX en el período de entreguerras, más específicamente durante la década de 1930 cuando las fuerzas armadas y agencias de seguridad de países desarrollados comienzan a interesarse por el uso de computadoras con fines militares. Es aquí donde comienza una fuerte inversión por parte de los gobiernos de las principales potencias mundiales en investigación y desarrollo para la creación de supercomputadoras que tengan objetivos bélicos apoyado en laboratorios de investigación de empresas contratistas y universidades.
 
@@ -70,7 +70,7 @@ El desarrollo de las maquinas criptografías se inicia en 1919 en Alemania, cuan
 
 En 1939 los servicios de inteligencia inglés y francés fueron invitados por su símil de Polonia a una reunión secreta para mostrarles el funcionamiento de unas máquinas de desciframiento llamadas “bombas”, una de las cuales venían decodificando los mensajes de la Enigma mediante la simulación del movimiento de los rotores de esta. El motivo de la reunión fue compartir la información con esos países ante la inminencia del estallido de la guerra. En 1940, el matemático ingles Alan Turing elaboraría una versión mejorada de estas máquinas. La bomba inglesa media 2,40 de alto y 2.40 de diámetro y fue la primera máquina electromecánica dedicada al criptoanálisis**.**
 
-[![Supercomputadora Criptográfica](images/4-primeras-supercomputadoras.jpg){fig-align="center"}](https://blogs.uoc.edu/informatica/es/bletchley-park-i-las-maquinas-enigma-y-la-bombe/)
+[![Supercomputadora Criptográfica](images_2_cap/4-primeras-supercomputadoras.jpg){fig-align="center"}](https://blogs.uoc.edu/informatica/es/bletchley-park-i-las-maquinas-enigma-y-la-bombe/)
 
 En ese entonces se comenzaron a utilizar las maquinas que se encargaban de cifrar los mensajes basadas en la técnica de discos rotativos, como la TYPEX británica o la Converter M-209 estadounidense. En 1943 en Inglaterra se pone en funcionamiento la computadora *Colossus***,** una máquina descifradora automática. Una vez finalizada la contienda mundial, el primer ministro británico Winston Churchill ordenó la destrucción de las 10 Colossus operativas y decretó el secreto de funcionamiento por 30 años.
 
@@ -86,7 +86,7 @@ Tras estos hechos, el Departamento de Defensa aprueba la realización de una red
 
 Pero fue recién en 1969 que se establecieron conexiones fijas entre la Universidad de California (UCLA) y el Instituto de Investigación de Stanford (SRI) de la Universidad de Utah y la Universidad de Santa Bárbara de California Estableciéndose como nodos principales, se da inicio a ARPANET, la red de computadoras militares de ARPA.
 
-[![Bosquejo Original - NODOS ARPA](images/5-nodos-ARPA.jpg){fig-align="center"}](https://nic.ar/es/enterate/novedades/arpanet-el-origen-de-internet)
+[![Bosquejo Original - NODOS ARPA](images_2_cap/5-nodos-ARPA.jpg){fig-align="center"}](https://nic.ar/es/enterate/novedades/arpanet-el-origen-de-internet)
 
 Ya durante la década siguiente, en 1972 se inicia el Programa *Internetting con el* objetivo de establecer una red de *“arquitectura abierta*” que tenga como centro de interconexión a ARPANET. Una red de redes donde cada una mantenga su propia estructura y configuración. Reglas básicas del Programa eran:
 
@@ -100,7 +100,7 @@ Ya durante la década siguiente, en 1972 se inicia el Programa *Internetting con
 
 Tras el desarrollo de diferentes innovaciones tecnológicas en el área de la informática interactiva y el surgimiento de nuevas redes organizacionales, el Departamento de Defensa de los EE. UU. -preocupado por la seguridad de las comunicaciones- crea en 1983 MILNET, una red subsidiaria de ARPANET para investigaciones militares. Librada de fines militares, la red pasó a llamarse ARPANET-INTERNET con fines de investigación académica.
 
-[![Migración de ARPANET a MILNET](images/6-ARPANET-MILNET.jpg){fig-align="center"}](https://www.livinginternet.com/i/ii_arpanet.htm)
+[![Migración de ARPANET a MILNET](images_2_cap/6-ARPANET-MILNET.jpg){fig-align="center"}](https://www.livinginternet.com/i/ii_arpanet.htm)
 
 En términos políticos, en 1985 asume Mikail Gorvachov como Secretario General del Partido Comunista en la Unión Soviética. Un año más tarde se produce la explosión en la planta nuclear de Chernobyl, hecho que aceleró un proceso de reforma de la economía soviética conocida como “Perestroika (reestructuración, en ruso). Esto marca el inicio de una distensión política entre los Estados Unidos y la Unión Soviética a partir de un acercamiento entre los presidentes de ambos países George Bush y Gorbachov. Estados Unidos se identifica victorioso de la contienda política y la competitividad tecnológica y no percibe a la URSS como una amenaza en términos militares.
 
@@ -114,7 +114,7 @@ El programa estaba basado en la idea del hipertexto, desarrollada por el ingenie
 
 Bush imagino la creación de un dispositivo llamado *Memex* que tenga la **c**apacidad de almacenar información textual y grafica donde cualquier pieza se pueda vincular entre si arbitrariamente, se puedan añadir notas marginales aprovechándose de fotografías y el acceso a la información mediante “enlaces” por el cual luego podía ser recuperada desde el origen. Memex iba a estar compuesto por un escritorio, pantallas translucidas en el que el material es proyectado, teclados, botones y palancas para establecer una mejor comunicación.
 
-[![Proyecto MEMEX](images/7-proyecto-MEMEX.jpg){fig-align="center"}](https://hipertexto.fandom.com/es/wiki/MEMEX)
+[![Proyecto MEMEX](images_2_cap/7-proyecto-MEMEX.jpg){fig-align="center"}](https://hipertexto.fandom.com/es/wiki/MEMEX)
 
 Si bien la idea de de un hipertexto fue concebida por Bush en 1945, el término fue acuñado por el filósofo y sociólogo estadounidense Theodore Nedson en 1965 en un paper escrito para la Revista *Literary Machines.* El hipertexto es una Forma de escritura no lineal o secuencial, un tipo de texto que se ramifica y permite la elección al lecto y funciona a través de una pantalla interactiva. En el artículo describe una máquina concebida teóricamente en 1960 por Nelson bajo el nombre Proyecto Xanadú, que constaba de una base de datos universal de conocimiento fundado en un archivo de documentos (“docuverso”) donde los archivos se encadenan entre sí a modo de enlace directo entre citas y notas de texto.
 
