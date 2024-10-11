@@ -6,10 +6,8 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
-<meta name="author" content="T.S. Christopher Jara">
-<meta name="dcterms.date" content="2024-09-25">
 
-<title>Desarrollo Web FontEnd</title>
+<title>3&nbsp; Tipos de Redes en la informática – Desarrollo Web FontEnd</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -32,7 +30,8 @@ ul.task-list li input[type="checkbox"] {
 <script src="site_libs/quarto-search/fuse.min.js"></script>
 <script src="site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="./">
-<link href="./1_Capitulo.html" rel="next">
+<link href="./intro.html" rel="next">
+<link href="./2_Capitulo.html" rel="prev">
 <script src="site_libs/quarto-html/quarto.js"></script>
 <script src="site_libs/quarto-html/popper.min.js"></script>
 <script src="site_libs/quarto-html/tippy.umd.min.js"></script>
@@ -82,7 +81,7 @@ ul.task-list li input[type="checkbox"] {
       <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" role="button" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
         <i class="bi bi-layout-text-sidebar-reverse"></i>
       </button>
-        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./index.html">Bienvenida</a></li></ol></nav>
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./4_Capitulo.html"><span class="chapter-number">3</span>&nbsp; <span class="chapter-title">Tipos de Redes en la informática</span></a></li></ol></nav>
         <a class="flex-grow-1" role="navigation" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
         </a>
       <button type="button" class="btn quarto-search-button" aria-label="Search" onclick="window.quartoOpenSearch();">
@@ -109,7 +108,7 @@ ul.task-list li input[type="checkbox"] {
     <ul class="list-unstyled mt-1">
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./index.html" class="sidebar-item-text sidebar-link active">
+  <a href="./index.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Bienvenida</span></a>
   </div>
 </li>
@@ -127,7 +126,7 @@ ul.task-list li input[type="checkbox"] {
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./4_Capitulo.html" class="sidebar-item-text sidebar-link">
+  <a href="./4_Capitulo.html" class="sidebar-item-text sidebar-link active">
  <span class="menu-text"><span class="chapter-number">3</span>&nbsp; <span class="chapter-title">Tipos de Redes en la informática</span></span></a>
   </div>
 </li>
@@ -159,13 +158,21 @@ ul.task-list li input[type="checkbox"] {
     <h2 id="toc-title">Table of contents</h2>
    
   <ul>
-  <li><a href="#bienvenida" id="toc-bienvenida" class="nav-link active" data-scroll-target="#bienvenida">Bienvenida</a>
+  <li><a href="#qué-son-las-redes-informáticas" id="toc-qué-son-las-redes-informáticas" class="nav-link active" data-scroll-target="#qué-son-las-redes-informáticas"><span class="header-section-number">3.1</span> ¿Qué son las redes informáticas?</a></li>
+  <li><a href="#cuáles-son-los-tipos-de-redes-informáticas-más-importantes" id="toc-cuáles-son-los-tipos-de-redes-informáticas-más-importantes" class="nav-link" data-scroll-target="#cuáles-son-los-tipos-de-redes-informáticas-más-importantes"><span class="header-section-number">3.2</span> ¿Cuáles son los tipos de redes informáticas más importantes?</a>
   <ul class="collapse">
-  <li><a href="#de-qué-trata-este-curso" id="toc-de-qué-trata-este-curso" class="nav-link" data-scroll-target="#de-qué-trata-este-curso"><strong>¿De qué trata este curso?</strong></a></li>
-  <li><a href="#para-quién-es-este-curso" id="toc-para-quién-es-este-curso" class="nav-link" data-scroll-target="#para-quién-es-este-curso"><strong>¿Para quién es este curso?</strong></a></li>
-  <li><a href="#cómo-contribuir" id="toc-cómo-contribuir" class="nav-link" data-scroll-target="#cómo-contribuir"><strong>¿Cómo contribuir?</strong></a></li>
-  <li><a href="#contribución-estudiantil" id="toc-contribución-estudiantil" class="nav-link" data-scroll-target="#contribución-estudiantil"><strong>Contribución estudiantil</strong></a></li>
+  <li><a href="#lan-local-area-network" id="toc-lan-local-area-network" class="nav-link" data-scroll-target="#lan-local-area-network"><span class="header-section-number">3.2.1</span> LAN (Local Area Network)</a></li>
+  <li><a href="#man-metropolitan-area-network" id="toc-man-metropolitan-area-network" class="nav-link" data-scroll-target="#man-metropolitan-area-network"><span class="header-section-number">3.2.2</span> MAN (Metropolitan Area Network)</a></li>
+  <li><a href="#wan-wide-area-network" id="toc-wan-wide-area-network" class="nav-link" data-scroll-target="#wan-wide-area-network"><span class="header-section-number">3.2.3</span> WAN (Wide Area Network)</a></li>
+  <li><a href="#wlan-wireless-local-area-network" id="toc-wlan-wireless-local-area-network" class="nav-link" data-scroll-target="#wlan-wireless-local-area-network"><span class="header-section-number">3.2.4</span> WLAN (Wireless Local Area Network)</a></li>
+  <li><a href="#can-campus-area-network" id="toc-can-campus-area-network" class="nav-link" data-scroll-target="#can-campus-area-network"><span class="header-section-number">3.2.5</span> CAN (Campus Area Network)</a></li>
+  <li><a href="#man-metropolitan-area-network-1" id="toc-man-metropolitan-area-network-1" class="nav-link" data-scroll-target="#man-metropolitan-area-network-1"><span class="header-section-number">3.2.6</span> MAN (Metropolitan Area Network)</a></li>
+  <li><a href="#wan-wide-area-network-1" id="toc-wan-wide-area-network-1" class="nav-link" data-scroll-target="#wan-wide-area-network-1"><span class="header-section-number">3.2.7</span> WAN (Wide Area Network)</a></li>
+  <li><a href="#wlan-wireless-local-area-network-1" id="toc-wlan-wireless-local-area-network-1" class="nav-link" data-scroll-target="#wlan-wireless-local-area-network-1"><span class="header-section-number">3.2.8</span> WLAN (Wireless Local Area Network)</a></li>
+  <li><a href="#can-campus-area-network-1" id="toc-can-campus-area-network-1" class="nav-link" data-scroll-target="#can-campus-area-network-1"><span class="header-section-number">3.2.9</span> CAN (Campus Area Network)</a></li>
   </ul></li>
+  <li><a href="#para-qué-sirven-los-diferentes-tipos-de-redes-informáticas" id="toc-para-qué-sirven-los-diferentes-tipos-de-redes-informáticas" class="nav-link" data-scroll-target="#para-qué-sirven-los-diferentes-tipos-de-redes-informáticas"><span class="header-section-number">3.3</span> Para qué sirven los diferentes tipos de redes informáticas</a></li>
+  <li><a href="#qué-tipos-de-redes-informáticas-son-para-mi" id="toc-qué-tipos-de-redes-informáticas-son-para-mi" class="nav-link" data-scroll-target="#qué-tipos-de-redes-informáticas-son-para-mi"><span class="header-section-number">3.4</span> ¿Qué tipos de redes informáticas son para mi?</a></li>
   </ul>
 </nav>
     </div>
@@ -174,26 +181,14 @@ ul.task-list li input[type="checkbox"] {
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Desarrollo Web FontEnd</h1>
+<h1 class="title"><span class="chapter-number">3</span>&nbsp; <span class="chapter-title">Tipos de Redes en la informática</span></h1>
 </div>
 
 
 
 <div class="quarto-title-meta">
 
-    <div>
-    <div class="quarto-title-meta-heading">Author</div>
-    <div class="quarto-title-meta-contents">
-             <p>T.S. Christopher Jara </p>
-          </div>
-  </div>
     
-    <div>
-    <div class="quarto-title-meta-heading">Published</div>
-    <div class="quarto-title-meta-contents">
-      <p class="date">September 25, 2024</p>
-    </div>
-  </div>
   
     
   </div>
@@ -203,69 +198,97 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<section id="bienvenida" class="level1 unnumbered">
-<h1 class="unnumbered">Bienvenida</h1>
-<p>¡Bienvenido al Curso de Desarrollo Web, diseñado para los estudiantes de tercero de bachillerato de la U.E.P. “Carlos Crespi II, cursantes de la materia de Desarrollo Web, especialidad Informática.</p>
-<p>En este curso, exploraremos todo, desde los fundamentos, revisando las herramientas de última tecnología, hasta las aplicaciones prácticas.</p>
-<section id="de-qué-trata-este-curso" class="level2">
-<h2 class="anchored" data-anchor-id="de-qué-trata-este-curso"><strong>¿De qué trata este curso?</strong></h2>
-<p>Durante este periodo lectivo, cursaremos fundamentos teóricos básicos de la programación hasta la construcción de sitios web completos utilizando los lenguajes de programación HTML, CSS y JavaScript.</p>
-<p>A través de una combinación de teoría y ejercicios prácticos, nos sumergiremos en los conceptos esenciales del desarrollo web y avanzaremos hacia la creación de proyectos del mundo real, con clientes reales, mismos que aportaran con su retroalimentación, con lo que cada proyecto se convertirá en una experiencia única.</p>
-<p>Juntos recorreremos desde la configuración del entorno de desarrollo hasta la construcción de un sitio web de pila completa, el conocimiento que el estudiante adquirirá le proporcionará una comprensión sólida y experiencia para implementarla en proyectos en el mundo laboral real.</p>
+<p>Nosotros hemos estudiado como es que surgió la revolucionaria tecnología del HTML, y hasta el momento todos quienes vayan siguiendo el texto estarán de acuerdo en que, la internet es una red de computadoras, mismas que se comunican entre si.</p>
+<p>Pero si somo lo suficientemente suspicaces, debería aparecer en nuestras cabezas la pregunta</p>
+<blockquote class="blockquote">
+<p>¿Qué alcance tiene esta red?</p>
+<p>¿Podría tener una red de este tipo en mi casa?</p>
+</blockquote>
+<p>Y esas son las dudas que resolveremos en este capítulo, y para ello iniciare explicando la red informática.</p>
+<section id="qué-son-las-redes-informáticas" class="level2" data-number="3.1">
+<h2 data-number="3.1" class="anchored" data-anchor-id="qué-son-las-redes-informáticas"><span class="header-section-number">3.1</span> ¿Qué son las redes informáticas?</h2>
+<p>Internet es una red global de computadoras conectados entre sí, mimas que intercambian información. Sin embargo, lo que mucha gente no está consciente es de la existencia de las mismas redes pde transmisión de datos, pero a menor escala, y en algunos casos también varia el propósito especifico, así como las capacidades, para plantearlo de una manera mas clara, usare el ejemplo de nuestra institución.</p>
+<p>En el laboratorio 1 de informática tenemos 16 estaciones de trabajo, y todas ellas se encuentran conectadas, mediante un cable UTP-Cat6, entre sí, pero con una computadora central que las puede observar y administrar.</p>
+<p>Esto es una red informática.</p>
+<p>Ahora que hemos comprendido este primer concepto, existen&nbsp;diferentes tipos de redes informáticas, de manera que algunas sirven para conectar dispositivos dentro de una misma habitación, pero&nbsp; otras pueden interconectar incluso organizaciones y/o países enteros.</p>
+<p>Sin embargo, sea cual sea su tamaño y alcance, las redes informáticas están compuestas por los siguientes&nbsp;elementos:</p>
+<ul>
+<li><p><strong>Servidores</strong>:&nbsp;se encargan de procesar el flujo de los datos y centralizar el control de la red.</p></li>
+<li><p><strong>Medios de transmisión</strong>:&nbsp;consiste en cableado u ondas electromagnéticas que permiten la transmisión de la información.</p></li>
+<li><p><strong>Elementos de <em>hardware</em></strong>:&nbsp;son piezas, como las tarjetas de red, módems, enrutadores o antenas repetidoras, que permiten la comunicación y el establecimiento físico de la red.</p></li>
+<li><p><strong>Elementos de&nbsp;<em>software</em></strong>:&nbsp;son los programas necesarios para que el&nbsp;<em>hardware</em> funcione y para administrar el sistema operativo.</p></li>
+</ul>
+<p>Clientes o estaciones de trabajo:&nbsp;se trata de computadoras que no son servidores, pero forman parte de la red y utilizan los recursos que administra el servidor</p>
 </section>
-<section id="para-quién-es-este-curso" class="level2">
-<h2 class="anchored" data-anchor-id="para-quién-es-este-curso"><strong>¿Para quién es este curso?</strong></h2>
-<p>Este curso está diseñado para estudiantes de la U.E.P. “Carlos Crespi II” principiantes en el mundo del desarrollo web, pero expertos en el diseño de sus entornos y para aquellos con poca o ninguna experiencia en programación.</p>
-<p>Ya sea un estudiante curioso, un profesional que busca cambiar de carrera o simplemente alguien que quiere aprender desarrollo web, este documento es para usted. Desde adolescentes hasta adultos, todos son bienvenidos a participar y explorar el emocionante mundo del desarrollo web.</p>
+<section id="cuáles-son-los-tipos-de-redes-informáticas-más-importantes" class="level2" data-number="3.2">
+<h2 data-number="3.2" class="anchored" data-anchor-id="cuáles-son-los-tipos-de-redes-informáticas-más-importantes"><span class="header-section-number">3.2</span> ¿Cuáles son los tipos de redes informáticas más importantes?</h2>
+<p>Antes de desarrollar este tema es muy importante para mi que, no se mal entienda el termino importantes, pues, si estas redes han sido desarrolladas por un profesional de la informática, habrán sido generadas a partir de un estudio de necesidades, en donde se determino, lo que mi hogar, empresa o institucion necesita,, previo a la inserción a la red Global, dicho esto, conozcamos ¿Cuáles son los tipos de redes informáticas mas importantes?</p>
+<p>Por esta razón, las redes informáticas&nbsp;<strong>se clasifican según su complejidad y su tamaño</strong>. Además, estas mismas se diferencian entre sí por las tareas que pueden ser realizadas por los usuarios.&nbsp;</p>
+<p>A continuación, te presentamos los <strong>8 tipos de redes informáticas</strong> más importantes:</p>
+<section id="lan-local-area-network" class="level3" data-number="3.2.1">
+<h3 data-number="3.2.1" class="anchored" data-anchor-id="lan-local-area-network"><span class="header-section-number">3.2.1</span> LAN (Local Area Network)</h3>
+<p>Las redes de área local son uno de los tipos de redes informáticas más comunes en hogares y lugares de trabajo. Estas&nbsp;<strong>permiten la comunicación y compartir documentos entre diferentes equipos digitales dentro de un espacio relativamente pequeño</strong>, como una casa u oficina. Además, estas redes destacan por ser poco costosas y tener una alta velocidad.</p>
 </section>
-<section id="cómo-contribuir" class="level2">
-<h2 class="anchored" data-anchor-id="cómo-contribuir"><strong>¿Cómo contribuir?</strong></h2>
-<p>Valoramos su contribución a este curso. Si encuentra algún error, desea sugerir mejoras o agregar contenido adicional, me encantaría saber de usted.</p>
-<p>Puede contribuir a través del repositorio en línea, donde puede compartir sus comentarios y sugerencias.</p>
-<p>Juntos, podemos mejorar continuamente este recurso educativo para beneficiar a la comunidad de estudiantes y entusiastas de la programación.</p>
-<p>Este ebook ha sido creado con el objetivo de proporcionar acceso gratuito y universal al conocimiento.</p>
-<p>Estará disponible en línea para cualquier persona, sin importar su ubicación o circunstancias, para acceder y aprender a su propio ritmo.</p>
-<p>Puede descargarlo en formato PDF, Epub o verlo en línea en cualquier momento y lugar.</p>
-<p>Esperamos que disfrute este emocionante viaje de aprendizaje y descubrimiento en el mundo del desarrollo web.</p>
+<section id="man-metropolitan-area-network" class="level3" data-number="3.2.2">
+<h3 data-number="3.2.2" class="anchored" data-anchor-id="man-metropolitan-area-network"><span class="header-section-number">3.2.2</span> MAN (Metropolitan Area Network)</h3>
+<p>Las redes de área metropolitana consisten, principalmente, en interconexiones de varias redes LAN. De este modo, son un tipo de <strong>redes informáticas de tamaño mediano que conectan a dispositivos y usuarios en espacios como una comunidad o una ciudad</strong>.&nbsp;</p>
+<p>Tienen niveles de transferencia bastante altos y están administradas por un grupo de usuarios comunes o un proveedor de red regional. Además, son el punto de conexión entre las redes LAN y las redes WAN.</p>
 </section>
-<section id="contribución-estudiantil" class="level2">
-<h2 class="anchored" data-anchor-id="contribución-estudiantil"><strong>Contribución estudiantil</strong></h2>
-<p>Valoro mucho la dedicación que cada uno asigna a su formación profesional, y ante todas las cosas fomento la lectura, conocedor de la ajetreada vid estudiantil que los cursantes de tercero de bachillerato experimentan en este periodo lectivo, es por esta razón que; si en algún momento, uno de mis estudiantes genera contenido de valor y aporta a este documento, su esfuerzo será reconocido académicamente:</p>
-<table class="caption-top table">
-<colgroup>
-<col style="width: 54%">
-<col style="width: 16%">
-<col style="width: 29%">
-</colgroup>
-<thead>
-<tr class="header">
-<th>Aporte</th>
-<th>Recompensa</th>
-<th>Insumo</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Aporte de corrección ortográfica</td>
-<td>0.25</td>
-<td>Insumo 1</td>
-</tr>
-<tr class="even">
-<td>Aporte de corrección de arquitectura</td>
-<td>1</td>
-<td>Insumo 1</td>
-</tr>
-<tr class="odd">
-<td>Aporte con un texto para el documento</td>
-<td>1</td>
-<td>Proyecto Quimestral</td>
-</tr>
-</tbody>
-</table>
-<p>Entonces, a partir de este momento, si un estudiante quisiera ganar puntos adicionales en el trimestre, o quizas, con mucho esfuezo, ni siquiera presentar el proyecto final de cada trimestre, lo único que debe hacer es seguir los pasos antriores e informar en clases o realizando un pull.</p>
+<section id="wan-wide-area-network" class="level3" data-number="3.2.3">
+<h3 data-number="3.2.3" class="anchored" data-anchor-id="wan-wide-area-network"><span class="header-section-number">3.2.3</span> WAN (Wide Area Network)</h3>
+<p>Se definen como&nbsp;<strong>redes de área amplia</strong>, ya que son redes computacionales más grandes que engloban e interconectan a las LAN, MAN y otros tipos de redes informáticas.&nbsp;</p>
+<p>En concreto,&nbsp;<strong>conectan regiones o países por medio de satélites o líneas telefónicas</strong>. Sin embargo, la distancia y los tipos de conexiones hacen que, por lo general, las WAN cuenten con velocidades más lentas, que usualmente no superan los 2 Megas por segundo.</p>
+</section>
+<section id="wlan-wireless-local-area-network" class="level3" data-number="3.2.4">
+<h3 data-number="3.2.4" class="anchored" data-anchor-id="wlan-wireless-local-area-network"><span class="header-section-number">3.2.4</span> WLAN (Wireless Local Area Network)</h3>
+<p>Las&nbsp;redes de área local inalámbricas&nbsp;son&nbsp;<strong>redes similares a las LAN que vinculan varios dispositivos para formar una red local de manera inalámbrica</strong>; haciendo uso del WIFI para conectarse.&nbsp;</p>
+<p>Entre todos los tipos de redes informáticas, estas son de las más prácticas para los usuarios, ya que no tienen que utilizar&nbsp;cables de Ethernet. No obstante, son más propensas a ciberataques.</p>
+</section>
+<section id="can-campus-area-network" class="level3" data-number="3.2.5">
+<h3 data-number="3.2.5" class="anchored" data-anchor-id="can-campus-area-network"><span class="header-section-number">3.2.5</span> CAN (Campus Area Network)</h3>
+<p>Si se trata de dar servicios de conectividad a una red ubicada en un espacio mediano, se suele recurrir a este tipo de redes informáticas. Su infraestructura puede&nbsp;<strong>conectar campus universitarios o espacios corporativos de gran envergadura</strong>. En este último caso, cambian su nombre por&nbsp;<em>Corporate Area Network</em>.</p>
+</section>
+<section id="man-metropolitan-area-network-1" class="level3" data-number="3.2.6">
+<h3 data-number="3.2.6" class="anchored" data-anchor-id="man-metropolitan-area-network-1"><span class="header-section-number">3.2.6</span> MAN (Metropolitan Area Network)</h3>
+<p>Las redes de área metropolitana consisten, principalmente, en interconexiones de varias redes LAN. De este modo, son un tipo de <strong>redes informáticas de tamaño mediano que conectan a dispositivos y usuarios en espacios como una comunidad o una ciudad</strong>.&nbsp;</p>
+<p>Tienen niveles de transferencia bastante altos y están administradas por un grupo de usuarios comunes o un proveedor de red regional. Además, son el punto de conexión entre las redes LAN y las redes WAN.</p>
+</section>
+<section id="wan-wide-area-network-1" class="level3" data-number="3.2.7">
+<h3 data-number="3.2.7" class="anchored" data-anchor-id="wan-wide-area-network-1"><span class="header-section-number">3.2.7</span> WAN (Wide Area Network)</h3>
+<p>Se definen como&nbsp;<strong>redes de área amplia</strong>, ya que son redes computacionales más grandes que engloban e interconectan a las LAN, MAN y otros tipos de redes informáticas.&nbsp;</p>
+<p>En concreto,&nbsp;<strong>conectan regiones o países por medio de satélites o líneas telefónicas</strong>. Sin embargo, la distancia y los tipos de conexiones hacen que, por lo general, las WAN cuenten con velocidades más lentas, que usualmente no superan los 2 Megas por segundo.</p>
+</section>
+<section id="wlan-wireless-local-area-network-1" class="level3" data-number="3.2.8">
+<h3 data-number="3.2.8" class="anchored" data-anchor-id="wlan-wireless-local-area-network-1"><span class="header-section-number">3.2.8</span> WLAN (Wireless Local Area Network)</h3>
+<p>Las&nbsp;redes de área local inalámbricas&nbsp;son&nbsp;<strong>redes similares a las LAN que vinculan varios dispositivos para formar una red local de manera inalámbrica</strong>; haciendo uso del WIFI para conectarse.&nbsp;</p>
+<p>Entre todos los tipos de redes informáticas, estas son de las más prácticas para los usuarios, ya que no tienen que utilizar&nbsp;cables de Ethernet. No obstante, son más propensas a ciberataques.</p>
+</section>
+<section id="can-campus-area-network-1" class="level3" data-number="3.2.9">
+<h3 data-number="3.2.9" class="anchored" data-anchor-id="can-campus-area-network-1"><span class="header-section-number">3.2.9</span> CAN (Campus Area Network)</h3>
+<p>Si se trata de dar servicios de conectividad a una red ubicada en un espacio mediano, se suele recurrir a este tipo de redes informáticas. Su infraestructura puede&nbsp;<strong>conectar campus universitarios o espacios corporativos de gran envergadura</strong>. En este último caso, cambian su nombre por&nbsp;<em>Corporate Area Network</em>.</p>
+</section>
+</section>
+<section id="para-qué-sirven-los-diferentes-tipos-de-redes-informáticas" class="level2" data-number="3.3">
+<h2 data-number="3.3" class="anchored" data-anchor-id="para-qué-sirven-los-diferentes-tipos-de-redes-informáticas"><span class="header-section-number">3.3</span> Para qué sirven los diferentes tipos de redes informáticas</h2>
+<p>Los diversos tipos de redes informáticas tienen&nbsp;<strong>funcionalidades</strong>. Entre ellas, destacamos las siguientes:</p>
+<ul>
+<li><p>Favorecen la&nbsp;<strong>comunicación por distintos medios electrónicos.</strong></p></li>
+<li><p>Posibilitan que&nbsp;<strong>varios usuarios utilicen un mismo dispositivo</strong>.</p></li>
+<li><p><strong>Permiten el acceso remoto</strong> a partir de la conexión entre equipos y programas.</p></li>
+<li><p>Garantizan la disponibilidad de la información, ya que ayudan a los usuarios a&nbsp;<strong>compartir e intercambiar archivos</strong>.</p></li>
+<li><p>Aumentan la&nbsp;<strong>velocidad de transmisión de los datos</strong>.</p></li>
+<li></li>
+</ul>
+<p>Estas son tareas que las organizaciones realizan de manera inconsciente, por ello, entender cuáles son los diferentes tipos de redes informáticas y su funcionamiento es de vital importancia.</p>
+</section>
+<section id="qué-tipos-de-redes-informáticas-son-para-mi" class="level2" data-number="3.4">
+<h2 data-number="3.4" class="anchored" data-anchor-id="qué-tipos-de-redes-informáticas-son-para-mi"><span class="header-section-number">3.4</span> ¿Qué tipos de redes informáticas son para mi?</h2>
+<p>En el momento en el que&nbsp;tu empresa comienza a conectar sus equipos&nbsp;para aprovechar las herramientas de internet, es importante&nbsp;<strong>conocer qué tipo de red informática se adapta a tus necesidades</strong> para que puedas tomar las decisiones de negocio más adecuadas.</p>
+<p>Por ello, navegar y comprender los tecnicismos de internet es fundamental, pero también es imprescindible contar con&nbsp;<strong>una asesoría experta</strong>&nbsp;que te apoye y te ayude a encontrar las soluciones de conectividad ideales para tu organización. En Alestra&nbsp;<strong>#SomosExpertos</strong>&nbsp;y te ofrecemos soluciones integrales para la administración de tu red&nbsp;LAN&nbsp;o la gestión de seguridad de una red&nbsp;WLAN.</p>
+<p>A partir de este momento usted tiene la capacidad de reconocer un red, sin embargo dentro de nuestro proceso de aprendizaje nos introduciremos en una red virtual, que estoy seguro el va a fascinar, GitHub, per eso lo dejaremos para analizarlo en oro capitulo.</p>
+<p>No olvide que sus aportes son muy valiosos, para el desarrollo de este texto.</p>
 
 
-</section>
 </section>
 
 </main> <!-- /main -->
@@ -691,10 +714,13 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 </script>
 <nav class="page-navigation">
   <div class="nav-page nav-page-previous">
+      <a href="./2_Capitulo.html" class="pagination-link" aria-label="**El surgimiento de la informática moderna, Internet y la Web**">
+        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text"><span class="chapter-number">2</span>&nbsp; <span class="chapter-title"><strong>El surgimiento de la informática moderna, Internet y la Web</strong></span></span>
+      </a>          
   </div>
   <div class="nav-page nav-page-next">
-      <a href="./1_Capitulo.html" class="pagination-link" aria-label="Desarrolladores Web">
-        <span class="nav-page-text"><span class="chapter-number">1</span>&nbsp; <span class="chapter-title">Desarrolladores Web</span></span> <i class="bi bi-arrow-right-short"></i>
+      <a href="./intro.html" class="pagination-link" aria-label="Introduction">
+        <span class="nav-page-text"><span class="chapter-number">4</span>&nbsp; <span class="chapter-title">Introduction</span></span> <i class="bi bi-arrow-right-short"></i>
       </a>
   </div>
 </nav>
