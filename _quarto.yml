@@ -10,6 +10,7 @@ book:
     - index.qmd
     - 1_Capitulo.qmd
     - 2_Capitulo.qmd
+    - 4_Capitulo.qmd
     - intro.qmd
     - summary.qmd
     - references.qmd

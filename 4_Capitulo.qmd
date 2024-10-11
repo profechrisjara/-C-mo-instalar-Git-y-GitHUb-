@@ -1,0 +1,117 @@
+# Tipos de Redes en la informática
+
+Nosotros hemos estudiado como es que surgió la revolucionaria tecnología del HTML, y hasta el momento todos quienes vayan siguiendo el texto estarán de acuerdo en que, la internet es una red de computadoras, mismas que se comunican entre si.
+
+Pero si somo lo suficientemente suspicaces, debería aparecer en nuestras cabezas la pregunta
+
+> ¿Qué alcance tiene esta red?
+>
+> ¿Podría tener una red de este tipo en mi casa?
+
+Y esas son las dudas que resolveremos en este capítulo, y para ello iniciare explicando la red informática.
+
+## ¿Qué son las redes informáticas?
+
+Internet es una red global de computadoras conectados entre sí, mimas que intercambian información. Sin embargo, lo que mucha gente no está consciente es de la existencia de las mismas redes pde transmisión de datos, pero a menor escala, y en algunos casos también varia el propósito especifico, así como las capacidades, para plantearlo de una manera mas clara, usare el ejemplo de nuestra institución.
+
+En el laboratorio 1 de informática tenemos 16 estaciones de trabajo, y todas ellas se encuentran conectadas, mediante un cable UTP-Cat6, entre sí, pero con una computadora central que las puede observar y administrar.
+
+Esto es una red informática.
+
+Ahora que hemos comprendido este primer concepto, existen diferentes tipos de redes informáticas, de manera que algunas sirven para conectar dispositivos dentro de una misma habitación, pero  otras pueden interconectar incluso organizaciones y/o países enteros.
+
+Sin embargo, sea cual sea su tamaño y alcance, las redes informáticas están compuestas por los siguientes elementos:
+
+-   **Servidores**: se encargan de procesar el flujo de los datos y centralizar el control de la red.
+
+-   **Medios de transmisión**: consiste en cableado u ondas electromagnéticas que permiten la transmisión de la información.
+
+-   **Elementos de *hardware***: son piezas, como las tarjetas de red, módems, enrutadores o antenas repetidoras, que permiten la comunicación y el establecimiento físico de la red.
+
+-   **Elementos de *software***: son los programas necesarios para que el *hardware* funcione y para administrar el sistema operativo.
+
+Clientes o estaciones de trabajo: se trata de computadoras que no son servidores, pero forman parte de la red y utilizan los recursos que administra el servidor
+
+## ¿Cuáles son los tipos de redes informáticas más importantes?
+
+Antes de desarrollar este tema es muy importante para mi que, no se mal entienda el termino importantes, pues, si estas redes han sido desarrolladas por un profesional de la informática, habrán sido generadas a partir de un estudio de necesidades, en donde se determino, lo que mi hogar, empresa o institucion necesita,, previo a la inserción a la red Global, dicho esto, conozcamos ¿Cuáles son los tipos de redes informáticas mas importantes?
+
+Por esta razón, las redes informáticas **se clasifican según su complejidad y su tamaño**. Además, estas mismas se diferencian entre sí por las tareas que pueden ser realizadas por los usuarios. 
+
+A continuación, te presentamos los **8 tipos de redes informáticas** más importantes:
+
+### LAN (Local Area Network)
+
+Las redes de área local son uno de los tipos de redes informáticas más comunes en hogares y lugares de trabajo. Estas **permiten la comunicación y compartir documentos entre diferentes equipos digitales dentro de un espacio relativamente pequeño**, como una casa u oficina. Además, estas redes destacan por ser poco costosas y tener una alta velocidad.
+
+### MAN (Metropolitan Area Network)
+
+Las redes de área metropolitana consisten, principalmente, en interconexiones de varias redes LAN. De este modo, son un tipo de **redes informáticas de tamaño mediano que conectan a dispositivos y usuarios en espacios como una comunidad o una ciudad**. 
+
+Tienen niveles de transferencia bastante altos y están administradas por un grupo de usuarios comunes o un proveedor de red regional. Además, son el punto de conexión entre las redes LAN y las redes WAN.
+
+### WAN (Wide Area Network)
+
+Se definen como **redes de área amplia**, ya que son redes computacionales más grandes que engloban e interconectan a las LAN, MAN y otros tipos de redes informáticas. 
+
+En concreto, **conectan regiones o países por medio de satélites o líneas telefónicas**. Sin embargo, la distancia y los tipos de conexiones hacen que, por lo general, las WAN cuenten con velocidades más lentas, que usualmente no superan los 2 Megas por segundo.
+
+### WLAN (Wireless Local Area Network)
+
+Las redes de área local inalámbricas son **redes similares a las LAN que vinculan varios dispositivos para formar una red local de manera inalámbrica**; haciendo uso del WIFI para conectarse. 
+
+Entre todos los tipos de redes informáticas, estas son de las más prácticas para los usuarios, ya que no tienen que utilizar cables de Ethernet. No obstante, son más propensas a ciberataques.
+
+### CAN (Campus Area Network)
+
+Si se trata de dar servicios de conectividad a una red ubicada en un espacio mediano, se suele recurrir a este tipo de redes informáticas. Su infraestructura puede **conectar campus universitarios o espacios corporativos de gran envergadura**. En este último caso, cambian su nombre por *Corporate Area Network*.
+
+### MAN (Metropolitan Area Network)
+
+Las redes de área metropolitana consisten, principalmente, en interconexiones de varias redes LAN. De este modo, son un tipo de **redes informáticas de tamaño mediano que conectan a dispositivos y usuarios en espacios como una comunidad o una ciudad**. 
+
+Tienen niveles de transferencia bastante altos y están administradas por un grupo de usuarios comunes o un proveedor de red regional. Además, son el punto de conexión entre las redes LAN y las redes WAN.
+
+### WAN (Wide Area Network)
+
+Se definen como **redes de área amplia**, ya que son redes computacionales más grandes que engloban e interconectan a las LAN, MAN y otros tipos de redes informáticas. 
+
+En concreto, **conectan regiones o países por medio de satélites o líneas telefónicas**. Sin embargo, la distancia y los tipos de conexiones hacen que, por lo general, las WAN cuenten con velocidades más lentas, que usualmente no superan los 2 Megas por segundo.
+
+### WLAN (Wireless Local Area Network)
+
+Las redes de área local inalámbricas son **redes similares a las LAN que vinculan varios dispositivos para formar una red local de manera inalámbrica**; haciendo uso del WIFI para conectarse. 
+
+Entre todos los tipos de redes informáticas, estas son de las más prácticas para los usuarios, ya que no tienen que utilizar cables de Ethernet. No obstante, son más propensas a ciberataques.
+
+### CAN (Campus Area Network)
+
+Si se trata de dar servicios de conectividad a una red ubicada en un espacio mediano, se suele recurrir a este tipo de redes informáticas. Su infraestructura puede **conectar campus universitarios o espacios corporativos de gran envergadura**. En este último caso, cambian su nombre por *Corporate Area Network*.
+
+## Para qué sirven los diferentes tipos de redes informáticas
+
+Los diversos tipos de redes informáticas tienen **funcionalidades**. Entre ellas, destacamos las siguientes:
+
+-   Favorecen la **comunicación por distintos medios electrónicos.**
+
+-   Posibilitan que **varios usuarios utilicen un mismo dispositivo**.
+
+-   **Permiten el acceso remoto** a partir de la conexión entre equipos y programas.
+
+-   Garantizan la disponibilidad de la información, ya que ayudan a los usuarios a **compartir e intercambiar archivos**.
+
+-   Aumentan la **velocidad de transmisión de los datos**.
+
+-   
+
+Estas son tareas que las organizaciones realizan de manera inconsciente, por ello, entender cuáles son los diferentes tipos de redes informáticas y su funcionamiento es de vital importancia.
+
+## ¿Qué tipos de redes informáticas son para mi?
+
+En el momento en el que tu empresa comienza a conectar sus equipos para aprovechar las herramientas de internet, es importante **conocer qué tipo de red informática se adapta a tus necesidades** para que puedas tomar las decisiones de negocio más adecuadas.
+
+Por ello, navegar y comprender los tecnicismos de internet es fundamental, pero también es imprescindible contar con **una asesoría experta** que te apoye y te ayude a encontrar las soluciones de conectividad ideales para tu organización. En Alestra **#SomosExpertos** y te ofrecemos soluciones integrales para la administración de tu red LAN o la gestión de seguridad de una red WLAN.
+
+A partir de este momento usted tiene la capacidad de reconocer un red, sin embargo dentro de nuestro proceso de aprendizaje nos introduciremos en una red virtual, que estoy seguro el va a fascinar, GitHub, per eso lo dejaremos para analizarlo en oro capitulo.
+
+No olvide que sus aportes son muy valiosos, para el desarrollo de este texto.
